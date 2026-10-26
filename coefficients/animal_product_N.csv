@@ -1,0 +1,10 @@
+item_code,item_name,n_content_kg_per_t,system,source
+882,"Raw milk of cattle",5.3,grazing,"~0.53% N (protein ~3.3% / 6.38)."
+951,"Raw milk of buffalo",6.5,grazing,"higher protein than cow milk."
+982,"Raw milk of sheep",9.0,grazing,"~5.5% protein."
+1020,"Raw milk of goats",5.5,grazing,"typical N content of the product"
+867,"Meat of cattle with the bone, fresh",25.0,grazing,"carcass N ~2.5%."
+947,"Meat of buffalo, fresh or chilled",25.0,grazing,"typical N content of the product"
+977,"Meat of sheep, fresh or chilled",25.0,grazing,"typical N content of the product"
+1017,"Meat of goat, fresh or chilled",25.0,grazing,"typical N content of the product"
+987,"Shorn wool, greasy",100.0,grazing,"high-N keratin; small tonnage."

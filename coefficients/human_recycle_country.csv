@@ -1,0 +1,60 @@
+ISO3,year,f_recycle,source
+# Country-specific human-excreta recycling trajectories (fraction of TOTAL excreta N recycled to
+# cropland, rural + urban), for well-documented high-recycling countries. Linearly interpolated
+# between anchor years; held flat outside the anchor range. Countries NOT listed here fall back to
+# the regional 1900 class (human_recycle.csv) x development decline. China rates from Gu et al. 2015
+# (PNAS 112:8792-8797, doi:10.1073/pnas.1510211112), stated in Esculier et al. (arXiv 2310.06880):
+# urban 90%(1980)/70%(1990)/40%(2000)/<5%(2010); rural 95%(1980)/77%(2000)/50%(2010). National values
+# below are population-weighted urban+rural blends of those rates.
+CHN,1965,0.94,"Near-universal night-soil recycling pre-1980 (rural ~0.95, urban ~0.90)."
+CHN,1980,0.94,"urban ~0.90 + rural ~0.95, population-weighted (~19% urban)."
+CHN,1990,0.82,"urban ~0.70; rural declining; pop-weighted (~26% urban)."
+CHN,2000,0.64,"urban ~0.40 + rural ~0.77, pop-weighted (~36% urban)."
+CHN,2010,0.28,"urban <0.05 + rural ~0.50, pop-weighted (~50% urban)."
+CHN,2020,0.12,"continued decline with chemical fertilizer + sanitation; extrapolated."
+# --- Japan: near-universal shimogoe recycling, collapse in the 1960s (earlier/steeper than China) ---
+JPN,1961,0.90,"Near-universal nightsoil (shimogoe) recycling pre-collapse (King 1911; Shirai et al. 2023)."
+JPN,1965,0.72,"Chemical fertilizer displacing farm demand post-1960; Tokyo shifting nightsoil farmland->sea (Noda 2024)."
+JPN,1980,0.15,"'Almost abandoned for agriculture after 1960', managed via treatment plants (Yang et al. 2010)."
+JPN,1990,0.05,"Sewerage becomes the main system in the late 1980s; only residual compost/biosolids reuse."
+JPN,2000,0.03,"Low single-digit biosolids/compost land application."
+JPN,2010,0.02,"Negligible."
+JPN,2020,0.02,"Negligible."
+# --- South Korea: earlier/steeper than China (parasite campaign, urban nightsoil ban, fast urbanization) ---
+KOR,1961,0.90,"Near-universal nightsoil recycling; ~28% urban (King 1911)."
+KOR,1980,0.55,"1969 national anti-parasite campaign + urban nightsoil ban + rapid urbanization (urban ~57%)."
+KOR,1990,0.30,"Rapid sewerage build-out; urban ~74%; nightsoil surviving mainly in rural pockets."
+KOR,2000,0.10,"~80% urban; OECD-high chemical fertilizer; residual only."
+KOR,2010,0.04,"Effectively extinct as an agronomic input."
+KOR,2020,0.02,"Negligible."
+# --- North Korea: U-SHAPED, NON-DECLINING. Chemical-fertilizer collapse after 1990 -> state-mandated recycling ---
+PRK,1961,0.85,"High peninsula baseline; early chemical-fertilizer expansion and collectivization."
+PRK,1980,0.45,"Trough: peak chemical-N era (DPRK N production peaked ~1979)."
+PRK,1990,0.50,"Chemical fertilizer beginning to falter pre-collapse; organic-manure emphasis rising."
+PRK,2000,0.75,"Reversal after Soviet-collapse/famine: chemical N crashed; state mandates organic 'Juche fertilizer'."
+PRK,2010,0.80,"Institutionalized annual 'manure battle' human-excreta quotas; chronic fertilizer shortage (FAO/WFP 2010)."
+PRK,2020,0.80,"Sustained high; sanctions + COVID border closure intensified self-reliance (RFA; Daily NK)."
+# --- Vietnam: strong north/central double-vault composting; later, slower decline than China ---
+VNM,1965,0.70,"Strong north/central reuse; weighted down by aquaculture-oriented south (Jensen et al. 2008)."
+VNM,1980,0.68,"Pre-Doi-Moi; chemical fertilizer scarce; ~85% of paddy N from manure/compost, rural north (Pham 2017)."
+VNM,1990,0.58,"Early decline as chemical fertilizer expands after 1986 reforms."
+VNM,2000,0.42,"Continued strong rural reuse; trending toward the 41%-by-2010 path."
+VNM,2010,0.30,"Diversion to fish ponds + household biogas (~500k plants); ~41% of paddy N from manure/compost (Pham 2017)."
+VNM,2020,0.18,"Continued decline, but slower/higher than China; persistent north-central tradition."
+#
+# --- Additional Asian Tier-1 trajectories: estimates anchored to
+# --- the documented CHN/JPN/KOR/VNM anchors, carry wide MC CV. STRONG: TWN, HKG. SUGGEST: NPL, BTN.
+# --- (THA/MYS/AFG held on default: sub-national ethnic-community signal only; KHM/LAO default: cultural aversion.)
+TWN,1961,0.80,"Intensive night-soil recycling (King 1911; Japanese-era organized collection). Est., calibrated to JPN/KOR."
+TWN,1975,0.55,"Rapid industrialization + chemical fertilizer displacing night soil. Est."
+TWN,1985,0.20,"Urbanization + sewerage expansion; night soil in decline. Est."
+TWN,2000,0.05,"Residual peri-urban/organic use only. Est."
+TWN,2020,0.02,"Negligible. Est."
+HKG,1961,0.65,"Documented night-soil trade + excreta-fed fishponds, New Territories agriculture. Est."
+HKG,1975,0.30,"NT agriculture shrinking under urbanization; trade declining. Est."
+HKG,1990,0.05,"Agriculture nearly displaced; sewerage. Est."
+HKG,2020,0.01,"Negligible. Est."
+NPL,1961,0.35,"Traditional composted human waste in hill/valley agriculture. Est."
+NPL,1980,0.30,"Persistent in mid-hills; limited chemical fertilizer penetration. Est."
+NPL,2000,0.22,"Slow decline; ecosan latrine programmes sustain some reuse. Est."
+NPL,2020,0.15,"Continued rural use, above default. Est."

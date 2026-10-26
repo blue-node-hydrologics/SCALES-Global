@@ -1,0 +1,22 @@
+ISO3,country,cf_N,cf_P,cf_K,source
+AUS,Australia,0.90,0.70,0.80,FAO CNB Table 1 (Ludemann et al. 2024)
+AUT,Austria,0.90,0.90,0.90,FAO CNB Table 1
+BRA,Brazil,0.90,1.00,0.95,FAO CNB Table 1
+CAN,Canada,0.90,1.00,0.95,FAO CNB Table 1
+CHL,Chile,0.80,0.70,0.75,FAO CNB Table 1
+FIN,Finland,0.70,1.00,0.85,FAO CNB Table 1
+FRA,France,0.90,0.90,0.90,FAO CNB Table 1
+DEU,Germany,0.80,0.90,0.85,FAO CNB Table 1
+IRL,Ireland,0.20,0.30,0.25,FAO CNB Table 1
+JPN,Japan,0.80,1.00,0.90,FAO CNB Table 1
+MAR,Morocco,0.90,1.00,0.95,FAO CNB Table 1
+NLD,Netherlands,0.50,0.90,0.70,FAO CNB Table 1
+NZL,New Zealand,0.10,0.10,0.10,FAO CNB Table 1
+POL,Poland,0.80,0.90,0.85,FAO CNB Table 1
+SVN,Slovenia,0.60,0.70,0.65,FAO CNB Table 1
+ZAF,South Africa,0.90,0.90,0.90,FAO CNB Table 1
+CHE,Switzerland,0.70,0.70,0.70,FAO CNB Table 1
+GBR,United Kingdom,0.80,0.70,0.75,FAO CNB Table 1
+USA,United States,0.80,1.00,0.90,FAO CNB Table 1
+URY,Uruguay,0.90,0.90,0.90,FAO CNB Table 1
+LUX,Luxembourg,0.40,0.70,0.55,FAO CNB Table 1

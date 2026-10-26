@@ -1,0 +1,10 @@
+# Data are not tracked: download the inputs with the scripts in scripts/ (see README.md)
+data/raw/
+data/processed/
+data/outputs/
+!data/validation/
+__pycache__/
+*.pyc
+.DS_Store
+._*
+.ipynb_checkpoints/

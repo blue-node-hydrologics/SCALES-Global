@@ -1,0 +1,124 @@
+# Present-day biosolids disposal-route fractions. Countries not listed use the DEFAULT row.
+ISO3,a_ag,a_other,a_lf,a_inc,confidence,tier1_informational,verified,source_short
+DEFAULT,0.35,0.1,0.25,0.3,--,,,existing SCALES default (near-zero-treatment countries)
+AGO,0.01,0.04,0.92,0.03,low,,,"World Bank, Project Appraisal Document, Angola Water Se"
+ALB,0.35,0.1,0.25,0.3,low,,,"Water Regulatory Authority of Albania (ARRU), reported "
+ARE,0.05,0.55,0.3,0.1,low,,,No primary quantitative source could be retrieved or ve
+ARG,0.1,0.15,0.7,0.05,low,,Y,"Water supply and sanitation in Argentina (Wikipedia, su"
+ARM,0.01,0.29,0.7,0.0,low,,,"EVN Report, ""When Untreated Sewage Is Dumped Into Water"
+AUS,0.793,0.183,0.023,0.001,medium,,Y,ANZBP (Australian and New Zealand Biosolids Partnership
+AUT,0.25,0.32,0.0,0.43,high,,Y,"Klärschlammentsorgung in Österreich: Status quo, ökolog"
+AZE,0.05,0.15,0.77,0.03,low,,,"World Bank, 'Hovsan Wastewater Outfall Project' Project"
+BEL,0.19,0.03,0.0,0.78,medium,,Y,Service Public de Wallonie / État de l'environnement wa
+BGD,0.08,0.12,0.8,0.0,low,,,SDG6 Data Portal - Bangladesh country page
+BGR,0.55,0.36,0.07,0.02,medium,,Y,"Sarov, A. & Tsvyatkova, N. (2021). Evolution and trends"
+BHR,0.05,0.45,0.5,0.0,low,,,FAO AQUASTAT Country Profile - Bahrain (data ~2005-2008
+BIH,0.03,0.07,0.83,0.07,low,,,FAO AQUASTAT country profile - Bosnia and Herzegovina
+BLR,0.02,0.03,0.95,0.0,medium,,Y,"""Осадки сточных вод: проблемы и возможности их..."" (slu"
+BOL,0.072,0.134,0.742,0.052,low,,,"Water supply and sanitation in Bolivia, Wikipedia synth"
+BRA,0.04,0.05,0.9,0.01,medium,,Y,"Bittencourt, S., Aisse, M.M., et al. (2018). Agricultur"
+BRB,0.35,0.1,0.25,0.3,low,,,"Construction Caribbean, 'The Barbados Sewage Crisis Exp"
+BWA,0.1,0.15,0.75,0.0,low,,,"Nkambule et al., 'Faecal Sludge Management in Botswana:"
+CAN,0.38,0.15,0.18,0.29,low,,Y,"Apedaile, E. (2001). 'A Perspective on Biosolids Manage"
+CHE,0.0,0.0,0.0,1.0,high,,Y,"Schweizerischer Bundesrat / admin.ch media release, ""Ba"
+CHL,0.13,0.17,0.7,0.0,low,,Y,"Wikipedia, 'Water supply and sanitation in Chile'"
+CHN,0.08,0.22,0.2,0.5,low,Y,Y,"Wei, L., Zhu, F., Li, Q., Xue, C., Xia, X., Yu, H., Zha"
+COG,0.35,0.1,0.25,0.3,low,,,"African Development Bank / African Water Facility, 'Con"
+COL,0.15,0.25,0.58,0.02,low,,Y,"Wikipedia, ""Water supply and sanitation in Colombia"""
+CRI,0.125,0.25,0.625,0.0,low,,,"Water supply and sanitation in Costa Rica, Wikipedia (a"
+CUB,0.05,0.1,0.85,0.0,low,,,"Water supply and sanitation in Cuba, Wikipedia (synthes"
+CYP,0.45,0.25,0.15,0.15,low,,,"Eurostat, 'Sewage sludge production and disposal' datas"
+CZE,0.268,0.716,0.002,0.014,low,,Y,"European Commission, Commission Staff Working Document "
+DEU,0.13,0.06,0.0,0.81,medium,,,"Statistisches Bundesamt (Destatis), 'KORREKTUR: 80 % de"
+DNK,0.926,0.037,0.0,0.037,high,,Y,"Miljøstyrelsen (Danish EPA), 'Gennemførelse og anvendel"
+DOM,0.02,0.08,0.9,0.0,low,,,"Frontiers in Water (2023), 'Use of biosolids from waste"
+DZA,0.3,0.05,0.65,0.0,low,,,Wastewater treatment technologies and challenges in Alg
+ECU,0.05,0.1,0.83,0.02,low,,,"Water supply and sanitation in Ecuador, Wikipedia (comp"
+EGY,0.2,0.3,0.5,0.0,low,,,"Wikipedia, 'Water supply and sanitation in Egypt' (seco"
+ESP,0.86,0.038,0.035,0.067,high,,Y,"Eurostat, 'Sewage sludge production and disposal' (env_"
+EST,0.25,0.45,0.28,0.02,low,,,"Estonian Ministry of Climate (Kliimaministeerium), 'Reo"
+FIN,0.46,0.44,0.02,0.08,medium,,Y,Suomen Vesilaitosyhdistys (VVY) (2021). 'Yhdyskuntaliet
+FRA,0.722,0.02,0.08,0.178,medium,,Y,"Starck, T., Fardet, A. & Esculier, F. (2023/2024). Fate"
+GAB,0.35,0.1,0.25,0.3,low,,,"Borgen Project, '10 Facts About Sanitation in Gabon'"
+GBR,0.87,0.06,0.0,0.07,medium,,Y,"Water UK, ""Extracting resources from sewage"""
+GEO,0.01,0.04,0.95,0.0,low,,,"Wikipedia, 'Water supply and sanitation in Georgia (cou"
+GHA,0.18,0.12,0.7,0.0,low,,Y,"Cofie, O., Kone, D., Rothenberger, S., Moser, D., Zubru"
+GNQ,0.0,0.0,1.0,0.0,low,,,"WHO/UNICEF Joint Monitoring Programme, SDG 6 Data Porta"
+GRC,0.33,0.14,0.51,0.02,low,,Y,"Prochaska, C.; Zouboulis, A. ""A Mini-Review of Urban Wa"
+GTM,0.043,0.1,0.857,0.0,low,,,"SDG6 Data Portal, Guatemala country page"
+HKG,0.0,0.02,0.08,0.9,medium,,,"Environmental Protection Department (EPD), Government o"
+HND,0.037,0.15,0.812,0.0,low,,,"Wikipedia, 'Water supply and sanitation in Honduras' (s"
+HRV,0.02,0.75,0.15,0.08,low,,Y,"Vouk, D., Malus, D., Halkijevic, I. (2019) 'Energy Reco"
+HUN,0.35,0.44,0.03,0.18,low,,Y,Hungarian National Sewage Sludge Management and Utiliza
+IDN,0.02,0.08,0.89,0.01,low,,Y,"Kaza, S., Yao, L.C., Bhada-Tata, P., Van Woerden, F. & "
+IND,0.18,0.36,0.45,0.01,low,,Y,"CPCB (Central Pollution Control Board), National Invent"
+IRL,0.93,0.07,0.0,0.0,medium,,Y,"EPA (Ireland), 'Urban Waste Water Treatment in 2022 Rep"
+IRN,0.13,0.06,0.8,0.01,medium,,Y,"Feizi, M., Jalali, M. & Renella, G. (2019). Assessment "
+IRQ,0.35,0.1,0.25,0.3,low,,,Water supply and sanitation in Iraq — Grokipedia (synth
+ISL,0.0,0.15,0.85,0.0,medium,,Y,"Umhverfisstofnun (Icelandic Environment Agency), Report"
+ISR,0.95,0.0,0.05,0.0,medium,,Y,Israel Ministry of Environmental Protection sludge disp
+ITA,0.1,0.32,0.5,0.08,low,,,Utilitalia study 'Fabbisogni impiantistici per una corr
+JAM,0.05,0.15,0.75,0.05,low,,,"Vision 2030 Jamaica, Water Sector Plan, June 2009"
+JOR,0.1,0.2,0.68,0.02,low,,,"No independently verified, citable quantitative source "
+JPN,0.02,0.09,0.14,0.75,low,Y,,"Nakakubo, T., Tokai, A., Ohno, K. (2012). Comparative a"
+KAZ,0.05,0.5,0.45,0.0,low,,,"World Bank, 'General Country Assessment - Kazakhstan' ("
+KEN,0.05,0.15,0.8,0.0,low,,Y,"Wikipedia, 'Water supply and sanitation in Kenya'"
+KGZ,0.0,0.947,0.053,0.0,low,,,"Asian Development Bank, Kyrgyz Republic: Issyk-Kul Wast"
+KOR,0.05,0.25,0.05,0.65,low,Y,Y,"Trimmer, J.T. & Guest, J.S. (2018). Recirculation of hu"
+KWT,0.05,0.28,0.65,0.02,low,,Y,"Trimmer, J.T. & Guest, J.S. (2018). Recirculation of hu"
+LAO,0.1,0.2,0.7,0.0,low,,,"Laotian Times, 'Vientiane's First Fecal Sludge Treatmen"
+LBN,0.0,0.3,0.7,0.0,low,,,"Water supply and sanitation in Lebanon, Wikipedia (citi"
+LBY,0.02,0.03,0.95,0.0,low,,,"FAO AQUASTAT, Libya Country Report / Country Profile (u"
+LTU,0.299,0.308,0.04,0.352,medium,,,"Bendoraitiene, E.; et al. 'Situation Analysis and the P"
+LUX,0.1,0.003,0.0,0.897,low,,Y,"L'essentiel, ""Luxembourg: comment valoriser les boues d"
+LVA,0.05,0.95,0.0,0.0,medium,,Y,"Argalis, P.P.; Vitola, L. (2026). Sewage Sludge as a Su"
+MAR,0.06,0.1,0.82,0.02,low,,Y,"Wikipedia, 'Water supply and sanitation in Morocco'"
+MDA,0.07,0.43,0.45,0.05,low,,,WHO/UNICEF Joint Monitoring Programme (JMP) for Water S
+MEX,0.1,0.13,0.76,0.01,low,,Y,"Cardoso Vigueros, L. et al. (2000). Manejo de lodos res"
+MKD,0.02,0.08,0.9,0.0,low,,,"SDG6 Data Portal (JMP/UN-Water), 'North Macedonia' coun"
+MLT,0.0,0.05,0.95,0.0,low,,Y,"ERA (Environment and Resources Authority, Malta), 'Sewa"
+MNE,0.0,0.158,0.789,0.053,low,,,"World Bank / Danube Water Program, 'A State of the Sect"
+MNG,0.02,0.18,0.78,0.02,low,,,WHO/UNICEF Joint Monitoring Programme (JMP) for Water S
+MUS,0.0,0.02,0.98,0.0,low,,,"Wastewater Management Authority (Mauritius), 'Treatment"
+MYS,0.02,0.1,0.65,0.23,low,,Y,Indah Water Konsortium (Wikipedia)
+NAM,0.35,0.1,0.25,0.3,low,,,"Borgen Project, '10 Facts about Sanitation in Namibia'"
+NGA,0.05,0.1,0.85,0.0,low,,Y,"Akwunwa, N. & Ogunlade, A., SFD Report - Enugu, Nigeria"
+NIC,0.35,0.1,0.25,0.3,low,,,"Wikipedia, 'Water supply and sanitation in Nicaragua' ("
+NLD,0.0,0.025,0.005,0.97,high,,Y,"Compendium voor de Leefomgeving (CLO) / CBS, 'Afzet van"
+NOR,0.46,0.31,0.03,0.2,medium,,Y,"Statistics Norway (SSB), 'Municipal wastewater – Expend"
+NZL,0.1,0.35,0.5,0.05,low,,Y,"Balks, M.R. (1994). Land Treatment and Disposal of Effl"
+OMN,0.02,0.68,0.3,0.0,low,,,WHO/UNICEF Joint Monitoring Programme (JMP) for Water S
+PAK,0.053,0.105,0.842,0.0,low,,,"'Water supply and sanitation in Pakistan' (Wikipedia, c"
+PAN,0.02,0.08,0.85,0.05,low,,,"Water supply and sanitation in Panama, Wikipedia (summa"
+PER,0.05,0.07,0.88,0.0,low,,Y,"Wikipedia, ""Water supply and sanitation in Peru"""
+PHL,0.05,0.24,0.7,0.01,low,,Y,"Republic Act No. 8749, Philippine Clean Air Act of 1999"
+POL,0.31,0.47,0.0,0.22,medium,,Y,Ministry of Infrastructure/Poland (2025). 'Gospodarka s
+PRI,0.04,0.227,0.733,0.0,low,,,National Biosolids Data Project (Northeast Biosolids an
+PRK,0.08,0.12,0.8,0.0,low,Y,,"Radio Free Asia, ""Yearly 'battle' begins in North Korea"
+PRT,0.2,0.7,0.08,0.02,low,,,"Eurostat, 'Sewage sludge production and disposal' (env_"
+PSE,0.0,0.048,0.952,0.0,low,,,"Water supply and sanitation in the State of Palestine, "
+QAT,0.01,0.19,0.75,0.05,low,,Y,WHO/UNICEF Joint Monitoring Programme (JMP) country pag
+ROU,0.23,0.26,0.49,0.02,medium,,Y,"Eurostat, env_ww_spd - Sewage sludge production and dis"
+RUS,0.04,0.09,0.75,0.12,low,,Y,"Manzhina, S.A. (2023). Russian and Foreign Practices of"
+SAU,0.05,0.28,0.6,0.07,low,,Y,"Wikipedia, 'Water supply and sanitation in Saudi Arabia"
+SEN,0.3,0.2,0.25,0.25,low,,,"Wikipedia, 'Water supply and sanitation in Senegal'"
+SGP,0.0,0.03,0.02,0.95,low,,Y,"Wikipedia, ""Water supply and sanitation in Singapore"""
+SLV,0.35,0.1,0.25,0.3,low,,,"Water supply and sanitation in El Salvador, Wikipedia ("
+SRB,0.05,0.35,0.55,0.05,low,,,"Eurostat, dataset env_ww_spd ""Sewage sludge production "
+SVK,0.0,0.71,0.03,0.26,medium,,,"Eurostat, 'Sewage sludge production and disposal' (env_"
+SVN,0.0,0.71,0.03,0.26,medium,,Y,"Bolan, S. et al. (2023/2024), 'Impacts of climate chang"
+SWE,0.45,0.35,0.17,0.03,medium,,Y,"Statistics Sweden (SCB), statistical news 'Utsläpp till"
+SYR,0.03,0.12,0.85,0.0,low,,,"Water Supply and Sanitation in Syria, Wikipedia (drawin"
+THA,0.05,0.2,0.65,0.1,low,,Y,"WEPA (Water Environment Partnership in Asia), ""On-Site "
+TJK,0.0,0.225,0.775,0.0,low,,,CAREC Institute / CWIS (Citywide Inclusive Sanitation) 
+TKM,0.05,0.35,0.6,0.0,low,,,"SDG6 Data Portal, 'Turkmenistan' country page (UN-Water"
+TUN,0.08,0.03,0.89,0.0,low,,Y,"Sabbahi, S., Ben Ayed, L., Trad, M., Berndtsson, R., Ka"
+TUR,0.04,0.19,0.57,0.2,low,,Y,"Eurostat, Sewage sludge production and disposal from ur"
+TWN,0.03,0.32,0.15,0.5,low,,Y,"Trimmer, J.T., Guest, J.S. (2018). Recirculation of hum"
+UKR,0.053,0.421,0.505,0.021,low,,,Poor quality of sewage water in Ukraine: a priority in 
+URY,0.05,0.15,0.8,0.0,low,,Y,"Trimmer, J.M. & Guest, J.S. (2018), 'Recirculation of h"
+USA,0.32,0.27,0.26,0.15,medium,,Y,"US EPA, 'Basic Information about Biosolids' (summarizin"
+UZB,0.02,0.13,0.8,0.05,low,,,"Asian Development Bank, Tashkent Province Sewerage Impr"
+VEN,0.006,0.028,0.967,0.0,low,,,"Water supply and sanitation in Venezuela, Wikipedia (co"
+VNM,0.03,0.12,0.8,0.05,low,Y,Y,"World Bank, ""Vietnam Urban Wastewater Review"" Executive"
+ZAF,0.3,0.53,0.17,0.0,medium,,Y,"Herselman, J.E. et al. (2005). An Evaluation of Dedicat"

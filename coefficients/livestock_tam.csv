@@ -1,0 +1,2 @@
+fao_item_code,item_name,ipcc_region,tam_kg,status,source
+0,EXAMPLE — replace,NA,NA,NEEDS_SOURCE,IPCC 2019 Vol.4 Ch.10 Table 10.x Typical Animal Mass (only needed if manure.method=bottom_up)

@@ -1,0 +1,7 @@
+glw_code,emn_item_codes,name,source
+CTL,1757,"Cattle","VERIFIED vs EMN: 1757 = aggregate Cattle (= dairy 960 + non-dairy 961). Use '960,961' if the aggregate is sparse."
+BFL,946,"Buffalo","VERIFIED vs EMN item 946."
+SHP,976,"Sheep","VERIFIED vs EMN item 976."
+GTS,1016,"Goats","VERIFIED vs EMN item 1016."
+PGS,1048,"Swine / pigs","VERIFIED vs EMN: 1048 = aggregate Swine (= market 1049 + breeding 1051)."
+CHK,1054,"Chickens","VERIFIED vs EMN: 1054 = aggregate Chickens (= layers 1052 + broilers 1053); ducks 1068, turkeys 1079 excluded."

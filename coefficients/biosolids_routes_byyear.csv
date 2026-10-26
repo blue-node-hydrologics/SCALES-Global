@@ -1,0 +1,648 @@
+# Biosolids disposal-route TRAJECTORY (anchor years; interpolate linearly, hold flat outside range). Shares sum to 1.
+# Columns a_ag|a_other|a_lf|a_inc. Mirrors human_recycle_country.csv format. Countries not listed -> DEFAULT (near-zero-treatment; see README).
+# Compiled from national statistics and literature for 121 countries; sources are given in the notes column.
+ISO3,year,a_ag,a_other,a_lf,a_inc,notes
+AGO,1961,0.0,0.02,0.95,0.03,No documented biosolids reuse program in colonial-
+AGO,1976,0.0,0.01,0.97,0.02,Civil war period (1975-2002): infrastructure maint
+AGO,2003,0.0,0.03,0.95,0.02,Post-war reconstruction era: some new/rehabilitate
+AGO,2016,0.01,0.04,0.92,0.03,Current period: World Bank Angola Water Sector Ins
+AGO,2023,0.01,0.04,0.92,0.03,= last period
+ALB,1961,0.35,0.1,0.25,0.3,No centralized sewage treatment infrastructure of 
+ALB,1986,0.35,0.1,0.25,0.3,Post-communist collapse (1990-1997) degraded what 
+ALB,2000,0.35,0.1,0.25,0.3,First modern WWTP (Pogradec) commissioned 2009; sl
+ALB,2014,0.35,0.1,0.25,0.3,EU IPA/EBRD-funded WWTP construction expands to Ka
+ALB,2023,0.35,0.1,0.25,0.3,= last period
+ARE,1961,0.05,0.2,0.7,0.05,Pre-network era: centralized sewerage/treatment wa
+ARE,1981,0.05,0.3,0.6,0.05,Sewerage networks expand in Abu Dhabi and Dubai th
+ARE,2001,0.05,0.45,0.4,0.1,Major STP capacity build-out (incl. ADSSC formatio
+ARE,2016,0.05,0.55,0.3,0.1,Continued national emphasis (UAE Circular Economy 
+ARE,2023,0.05,0.55,0.3,0.1,= last period
+ARG,1961,0.02,0.03,0.95,0.0,Assumed (low confidence; no national data located)
+ARG,1990,0.05,0.1,0.8,0.05,Assumed (low confidence; no national data located)
+ARG,2011,0.1,0.15,0.7,0.05,Assumed (low confidence; no national data located)
+ARG,2023,0.1,0.15,0.7,0.05,= last period
+ARM,1961,0.05,0.35,0.55,0.05,No direct data; centralized sewerage/treatment min
+ARM,1976,0.05,0.3,0.6,0.05,ADB report documents 20 WWTPs built pre-1990 for m
+ARM,1991,0.02,0.28,0.65,0.05,Post-Soviet economic collapse degraded most of the
+ARM,2005,0.02,0.28,0.68,0.02,Privatization era (SAUR/Veolia contracts from 2004
+ARM,2017,0.01,0.29,0.7,0.0,EVN Report (2021) documents only ~8% mechanical / 
+ARM,2023,0.01,0.29,0.7,0.0,= last period
+AUS,1961,0.1,0.2,0.7,0.0,Very low confidence / largely qualitative: central
+AUS,1980,0.263,0.158,0.579,0.0,Low confidence: transitional period as secondary t
+AUS,1997,0.464,0.206,0.33,0.0,Low-medium confidence: state EPA biosolids guideli
+AUS,2010,0.793,0.183,0.023,0.001,Medium-low confidence: approximates the pattern ge
+AUS,2023,0.793,0.183,0.023,0.001,= last period
+AUT,1961,0.1,0.1,0.7,0.1,No route-share data located for this period. Centr
+AUT,1981,0.2,0.13,0.33,0.34,Averaged from Umweltbundesamt report M-095 (Scharf
+AUT,1996,0.2,0.2,0.15,0.45,Transition period bracketed by the 1996 Deponiever
+AUT,2005,0.16,0.34,0.0,0.5,Springer/OWAV 2018 review (Perspektiven der künfti
+AUT,2016,0.25,0.32,0.0,0.43,"BMLUK (2025), 'Die Bestandsaufnahme der Abfallwirt"
+AUT,2023,0.25,0.32,0.0,0.43,= last period
+AZE,1961,0.02,0.1,0.85,0.03,No Azerbaijan-specific Soviet-era sludge data loca
+AZE,1986,0.02,0.1,0.85,0.03,"Same as prior period; end of Soviet era, no eviden"
+AZE,1992,0.01,0.09,0.87,0.03,Post-independence economic disruption and underinv
+AZE,2006,0.03,0.12,0.82,0.03,Azersu reform (2005) and World Bank/ADB/JICA-finan
+AZE,2016,0.05,0.15,0.77,0.03,UNECE (2022) reports operational WWTPs in 17 distr
+AZE,2023,0.05,0.15,0.77,0.03,= last period
+BEL,1961,0.05,0.05,0.8,0.1,No direct data found for this period; centralized 
+BEL,1986,0.35,0.05,0.45,0.15,EU Sewage Sludge Directive 86/278/EEC (1986) estab
+BEL,2000,0.2,0.05,0.25,0.5,Flanders' Dec-1999 VLAREA ban on agricultural slud
+BEL,2008,0.19,0.03,0.0,0.78,"Present-day composite: Flanders (~95,000 t DS/yr; "
+BEL,2023,0.19,0.03,0.0,0.78,= last period
+BGD,1961,0.0,0.0,1.0,0.0,No engineered municipal sewage/sludge treatment in
+BGD,1990,0.02,0.03,0.95,0.0,Pagla STP (built 1989) operating but serving only 
+BGD,2010,0.05,0.1,0.85,0.0,"Donor-funded (SNV, Gates Foundation, WaterAid) fec"
+BGD,2017,0.08,0.12,0.8,0.0,Following the November 2017 national Institutional
+BGD,2023,0.08,0.12,0.8,0.0,= last period
+BGR,1961,0.1,0.1,0.75,0.05,No Bulgaria-specific source located for this perio
+BGR,1990,0.2,0.1,0.65,0.05,"Sarov & Tsvyatkova (2021, agrojournal.org/27/02-07"
+BGR,2007,0.35,0.15,0.4,0.1,"Kirova, Bencheva et al. (2021, Springer 10.1007/97"
+BGR,2018,0.55,0.36,0.07,0.02,WISE Freshwater / EEA Waterbase-UWWTD 2022-reporte
+BGR,2023,0.55,0.36,0.07,0.02,= last period
+BHR,1961,0.03,0.12,0.85,0.0,Pre-centralized-sewerage era; sanitation was predo
+BHR,1980,0.03,0.12,0.85,0.0,Tubli WPCC established/expanded as the main plant 
+BHR,2000,0.05,0.25,0.7,0.0,Continued treatment capacity growth and tertiary t
+BHR,2014,0.05,0.45,0.5,0.0,Further WWTP capacity additions (new plants report
+BHR,2023,0.05,0.45,0.5,0.0,= last period
+BIH,1961,0.05,0.1,0.8,0.05,No data located; notional estimate reflecting mini
+BIH,1992,0.02,0.05,0.9,0.03,Bosnian War: infrastructure destroyed/non-operatio
+BIH,1996,0.03,0.07,0.87,0.03,Post-war reconstruction prioritized sewer network 
+BIH,2011,0.03,0.07,0.85,0.05,Construction/commissioning of Sarajevo (Butile) WW
+BIH,2019,0.03,0.07,0.83,0.07,"Additional WWTPs (Mostar, Banja Luka, Zenica, Bije"
+BIH,2023,0.03,0.07,0.83,0.07,= last period
+BLR,1961,0.02,0.03,0.9,0.05,Assumed (low confidence; no national data located)
+BLR,1971,0.1,0.05,0.8,0.05,Assumed (low confidence; no national data located)
+BLR,1991,0.05,0.05,0.88,0.02,Assumed (low confidence; no national data located)
+BLR,2005,0.08,0.07,0.83,0.02,Assumed (low confidence; no national data located)
+BLR,2016,0.02,0.03,0.95,0.0,Assumed (low confidence; no national data located)
+BLR,2023,0.02,0.03,0.95,0.0,= last period
+BOL,1961,0.0,0.05,0.9,0.05,No documented centralized WWTP or sludge-managemen
+BOL,1981,0.02,0.08,0.85,0.05,World Bank/IADB-financed urban sanitation investme
+BOL,2001,0.05,0.1,0.8,0.05,2001 revision of national technical sanitation sta
+BOL,2016,0.072,0.134,0.742,0.052,Continued incremental expansion of sewerage/treatm
+BOL,2023,0.072,0.134,0.742,0.052,= last period
+BRA,1961,0.0,0.05,0.95,0.0,Minimal centralized wastewater treatment pre-1975;
+BRA,1975,0.02,0.05,0.93,0.0,"Slow expansion of treatment (SABESP, SANEPAR, CAES"
+BRA,2000,0.05,0.05,0.89,0.01,CONAMA Resolucao 375/2006 sets criteria for agricu
+BRA,2011,0.04,0.05,0.9,0.01,PNRS (2010) drives shift from open dumps to sanita
+BRA,2023,0.04,0.05,0.9,0.01,= last period
+BRB,1961,0.35,0.1,0.25,0.3,No centralized sewerage/treatment plants of note e
+BRB,1982,0.35,0.1,0.25,0.3,"Bridgetown Sewerage System (secondary, contact-sta"
+BRB,2000,0.35,0.1,0.25,0.3,South Coast Sewage Treatment Plant becomes operati
+BRB,2017,0.35,0.1,0.25,0.3,November 2017 structural failure of the South Coas
+BRB,2021,0.35,0.1,0.25,0.3,CDB/EU-funded South Coast plant rehabilitation and
+BRB,2023,0.35,0.1,0.25,0.3,= last period
+BWA,1961,0.0,0.0,1.0,0.0,No material centralized sewer/treatment infrastruc
+BWA,1976,0.0,0.05,0.95,0.0,Gaborone WWTP and early urban treatment works oper
+BWA,2000,0.03,0.12,0.85,0.0,"Continued urban treatment expansion (Glen Valley, "
+BWA,2018,0.1,0.15,0.75,0.0,Nkambule et al. 2018 explicitly frames agricultura
+BWA,2023,0.1,0.15,0.75,0.0,= last period
+CAN,1961,0.1,0.05,0.75,0.1,No Canada-specific quantitative source located for
+CAN,1990,0.33,0.07,0.07,0.53,"McCarthy (2015, cwn-rce.ca, 'Risks Associated with"
+CAN,2001,0.35,0.1,0.3,0.25,McCarthy (2015) cites a 2001 survey of 49 Canadian
+CAN,2015,0.38,0.15,0.18,0.29,Frontiers 2024 PFAS-in-biosolids review (10.3389/f
+CAN,2023,0.38,0.15,0.18,0.29,= last period
+CHE,1961,0.35,0.15,0.4,0.1,"Analyst estimate, low confidence -- no Swiss prima"
+CHE,1975,0.5,0.1,0.25,0.15,"Analyst estimate, low-medium confidence. Rapid WWT"
+CHE,1990,0.4,0.1,0.1,0.4,"Analyst estimate, low-medium confidence. Some cant"
+CHE,2003,0.15,0.05,0.0,0.8,Transition period bracketed by two documented fede
+CHE,2006,0.0,0.0,0.0,1.0,Since the 1 Oct 2006 nationwide ban on agricultura
+CHE,2023,0.0,0.0,0.0,1.0,= last period
+CHL,1961,0.02,0.03,0.95,0.0,Centralized wastewater treatment (and therefore ce
+CHL,1999,0.03,0.1,0.87,0.0,Rapid WWTP construction following utility privatiz
+CHL,2009,0.08,0.22,0.7,0.0,DS N4/2009 sludge-management regulation and the NC
+CHL,2016,0.13,0.17,0.7,0.0,Major utilities (notably Aguas Andinas in the Sant
+CHL,2023,0.13,0.17,0.7,0.0,= last period
+CHN,1961,0.1,0.1,0.8,0.0,Essentially no centralized sludge treatment/captur
+CHN,1990,0.143,0.143,0.643,0.071,Rapid WWTP buildout (urban treatment rate rising f
+CHN,2013,0.15,0.075,0.525,0.25,13th Five-Year Plan (2016-2020) targets and tighte
+CHN,2020,0.08,0.22,0.2,0.5,Post-2020 provincial restrictions/bans on landfill
+CHN,2023,0.08,0.22,0.2,0.5,= last period
+COG,1961,0.35,0.1,0.25,0.3,No centralized sewerage or sludge treatment existe
+COG,1986,0.35,0.1,0.25,0.3,No evidence of any change; still no functioning se
+COG,1999,0.35,0.1,0.25,0.3,EU Landfill Directive era (globally referenced) no
+COG,2009,0.35,0.1,0.25,0.3,2009 AfDB evaluation explicitly states 100% of lat
+COG,2014,0.35,0.1,0.25,0.3,"Assumed small, largely unquantified emergence of t"
+COG,2023,0.35,0.1,0.25,0.3,= last period
+COL,1961,0.02,0.03,0.95,0.0,Pre-Ley 09/1979 (Código Sanitario Nacional). Centr
+COL,1980,0.05,0.05,0.9,0.0,Post-Ley 09/1979 and Decreto 1594/1984 (wastewater
+COL,2000,0.08,0.12,0.78,0.02,"PTAR Salitre (Bogotá, primary treatment) begins op"
+COL,2014,0.15,0.25,0.58,0.02,Decreto 1287 de 2014 (Ministerio de Ambiente y Des
+COL,2023,0.15,0.25,0.58,0.02,= last period
+CRI,1961,0.125,0.25,0.625,0.0,Essentially no centralized sewage treatment existe
+CRI,1981,0.125,0.25,0.625,0.0,No national biosolids-routes data found. Only 7 sm
+CRI,2007,0.125,0.25,0.625,0.0,Transition period: JICA-financed construction of t
+CRI,2016,0.125,0.25,0.625,0.0,Los Tajos WWTP (largest in Central America) operat
+CRI,2023,0.125,0.25,0.625,0.0,= last period
+CUB,1961,0.056,0.111,0.833,0.0,Rudimentary centralized sewerage confined mainly t
+CUB,1991,0.03,0.07,0.9,0.0,Special Period economic collapse degrades already-
+CUB,2006,0.03,0.07,0.9,0.0,"2006 assessment: all 5 major WWTPs inoperative, on"
+CUB,2015,0.05,0.1,0.85,0.0,Modest rehabilitation under 2013 National Water Po
+CUB,2023,0.05,0.1,0.85,0.0,= last period
+CYP,1961,0.021,0.021,0.957,0.0,Pre-centralized-treatment period. Cyprus had essen
+CYP,1986,0.1,0.05,0.85,0.0,"Cyprus was an EU candidate country and, per Eurost"
+CYP,2004,0.35,0.15,0.45,0.05,Post-EU-accession expansion of sewerage/WWTP infra
+CYP,2013,0.45,0.2,0.25,0.1,"EurEau (2021 briefing note on sludge management, h"
+CYP,2020,0.45,0.25,0.15,0.15,WISE Freshwater UWWTD country profile (https://wat
+CYP,2023,0.45,0.25,0.15,0.15,= last period
+CZE,1961,0.05,0.05,0.85,0.05,No Czech-specific data located for this period. Ce
+CZE,1980,0.15,0.1,0.7,0.05,No Czech-specific quantitative data located. Some 
+CZE,1994,0.3,0.15,0.45,0.1,Transitional period: rapid 1990s-2000s sewerage/WW
+CZE,2009,0.252,0.7,0.035,0.013,SOVAK ČR industry-association study 'Nakládání s č
+CZE,2018,0.439,0.377,0.088,0.096,"Same SOVAK ČR study, 2018 data: direct agricultura"
+CZE,2019,0.268,0.716,0.002,0.014,Ministry of Environment (MZP) 2024 'manazersky sou
+CZE,2023,0.268,0.716,0.002,0.014,= last period
+DEU,1961,0.35,0.15,0.45,0.05,No reliable measured route-share time series locat
+DEU,1986,0.3,0.15,0.35,0.2,Anchored to UBA data point for 1991: thermal dispo
+DEU,2005,0.35,0.15,0.01,0.49,German landfill ban on untreated organic waste eff
+DEU,2017,0.22,0.08,0.0,0.7,Transition period following the 2017 revised Sewag
+DEU,2022,0.13,0.06,0.0,0.81,Directly measured. Destatis 2023 detailed disposal
+DEU,2023,0.13,0.06,0.0,0.81,= last period
+DNK,1961,0.3,0.05,0.55,0.1,HIGH UNCERTAINTY / low confidence. No direct data 
+DNK,1986,0.5,0.05,0.22,0.23,"Based on Ministry of Environment and Energy, Denma"
+DNK,1997,0.6,0.03,0.02,0.35,Based on the 1997 Danish ban on landfilling combus
+DNK,2011,0.78,0.05,0.02,0.15,"a_ag=0.78 directly reported: 78% of 113,000 t DM s"
+DNK,2020,0.926,0.037,0.0,0.037,Directly reported 2022 calendar-year (and 2022/23 
+DNK,2023,0.926,0.037,0.0,0.037,= last period
+DOM,1961,0.0,0.0,1.0,0.0,Qualitative/inferred: centralized sewerage and WWT
+DOM,1976,0.011,0.042,0.947,0.0,Inferred from institutional history: CAASD/regiona
+DOM,2000,0.02,0.061,0.918,0.0,Sewer connection stagnant/declining in coverage te
+DOM,2019,0.02,0.08,0.9,0.0,Direct evidence period: UNEP/GRID Interactive Coun
+DOM,2023,0.02,0.08,0.9,0.0,= last period
+DZA,1961,0.05,0.05,0.85,0.05,No meaningful centralized wastewater treatment inf
+DZA,1979,0.1,0.1,0.75,0.05,Only 18-28 WWTPs nationwide by 1999-2000 (vs. hund
+DZA,2000,0.25,0.15,0.6,0.0,Post-1996 water-sector reform drove rapid WWTP exp
+DZA,2013,0.3,0.05,0.65,0.0,Continued expansion to ~154-200 ONA-managed plants
+DZA,2023,0.3,0.05,0.65,0.0,= last period
+ECU,1961,0.0,0.032,0.968,0.0,nominal/uncertain -- centralized sewerage and trea
+ECU,1986,0.01,0.04,0.94,0.01,nominal/uncertain -- gradual expansion of urban se
+ECU,2000,0.03,0.06,0.9,0.01,"Case-study evidence (Cuenca/Ucubamba PTAR, operati"
+ECU,2015,0.05,0.1,0.83,0.02,INEC municipal survey shows share of municipalitie
+ECU,2023,0.05,0.1,0.83,0.02,= last period
+EGY,1961,0.15,0.35,0.5,0.0,Centralized sewerage and treatment were minimal in
+EGY,1980,0.15,0.35,0.5,0.0,Assumed (low confidence; no national data located)
+EGY,2006,0.15,0.35,0.5,0.0,Same low-confidence structure as prior period carr
+EGY,2015,0.2,0.3,0.5,0.0,"Major capacity expansion (Bahr El-Baqar 2021, New "
+EGY,2023,0.2,0.3,0.5,0.0,= last period
+ESP,1961,0.03,0.05,0.82,0.1,No Eurostat or national statistical series exists 
+ESP,1986,0.4,0.25,0.25,0.1,Eurostat env_ww_spd begins continuous reporting fo
+ESP,2000,0.644,0.139,0.149,0.069,"Eurostat env_ww_spd, Spain, urban WWTPs, thousand "
+ESP,2010,0.8,0.0,0.11,0.09,"Eurostat env_ww_spd, Spain; average of three inter"
+ESP,2019,0.86,0.038,0.035,0.067,"Eurostat env_ww_spd, Spain, most recent internally"
+ESP,2023,0.86,0.038,0.035,0.067,= last period
+EST,1961,0.143,0.357,0.5,0.0,Very low confidence / largely unquantified. Soviet
+EST,1990,0.143,0.357,0.5,0.0,"Low confidence, transition-period estimate. Post-S"
+EST,2004,0.235,0.471,0.294,0.0,Estimated from qualitative description in a 2010 E
+EST,2017,0.25,0.45,0.28,0.02,Estimated. 2017 Estonian regulations established e
+EST,2023,0.25,0.45,0.28,0.02,= last period
+FIN,1961,0.05,0.1,0.8,0.05,Very low confidence/order-of-magnitude only. Centr
+FIN,1986,0.2,0.2,0.55,0.05,Low confidence. EU Sewage Sludge Directive 86/278/
+FIN,2000,0.3,0.35,0.3,0.05,Moderate-low confidence. EU Landfill Directive 199
+FIN,2016,0.46,0.44,0.02,0.08,Moderate confidence. Based on VVY (Finnish Water U
+FIN,2023,0.46,0.44,0.02,0.08,= last period
+FRA,1961,0.05,0.0,0.5,0.45,No reliable French sludge-disposal statistics exis
+FRA,1970,0.6,0.0,0.22,0.18,French Sénat report on water quality/sanitation (s
+FRA,1998,0.58,0.02,0.2,0.2,Transitional period per Sénat report data points: 
+FRA,2008,0.73,0.0,0.08,0.19,Ministry data cited via recy.net (2008 baseline): 
+FRA,2015,0.722,0.02,0.08,0.178,Synthesis of encyclopedie-environnement.org (73% s
+FRA,2023,0.722,0.02,0.08,0.178,= last period
+GAB,1961,0.35,0.1,0.25,0.3,No centralized sewage treatment infrastructure exi
+GAB,1990,0.35,0.1,0.25,0.3,No change identified in formal wastewater/sludge t
+GAB,2010,0.35,0.1,0.25,0.3,AFD/World Bank-supported urban sanitation and drai
+GAB,2020,0.35,0.1,0.25,0.3,Libreville Integrated WSS Program and continued do
+GAB,2023,0.35,0.1,0.25,0.3,= last period
+GBR,1961,0.4,0.1,0.4,0.1,Very low confidence / illustrative only. Centraliz
+GBR,1986,0.526,0.105,0.263,0.105,Low confidence. EU Directive 86/278/EEC (1986) for
+GBR,1999,0.65,0.08,0.15,0.12,Low-medium confidence. Reflects the forced post-se
+GBR,2006,0.78,0.03,0.02,0.17,Low-medium confidence. UK Landfill Tax escalator a
+GBR,2016,0.87,0.06,0.0,0.07,Assumed (low confidence; no national data located)
+GBR,2023,0.87,0.06,0.0,0.07,= last period
+GEO,1961,0.0,0.05,0.95,0.0,No direct national data located for the Soviet era
+GEO,1991,0.0,0.02,0.98,0.0,Post-Soviet economic collapse and infrastructure d
+GEO,2010,0.0,0.03,0.97,0.0,Batumi's modern WWTP commissioned 2012 (first real
+GEO,2020,0.01,0.04,0.95,0.0,Internationally financed (EBRD/ADB/KfW-type) secon
+GEO,2023,0.01,0.04,0.95,0.0,= last period
+GHA,1961,0.0,0.0,1.0,0.0,No evidence of centralized sewage/fecal-sludge tre
+GHA,1980,0.0,0.0,1.0,0.0,Era of designated but untreated fecal-sludge dumpi
+GHA,2001,0.02,0.03,0.95,0.0,Small IWMI/CSIR-supported co-composting research p
+GHA,2011,0.15,0.1,0.75,0.0,"Scale-up period: ACARP (Accra, co-composting, from"
+GHA,2019,0.18,0.12,0.7,0.0,"Continuation and modest expansion of ACARP, Safi S"
+GHA,2023,0.18,0.12,0.7,0.0,= last period
+GNQ,1961,0.0,0.0,1.0,0.0,No centralized sewerage or wastewater treatment ex
+GNQ,1996,0.0,0.0,1.0,0.0,Offshore oil boom begins (1996) transforming GDP b
+GNQ,2008,0.0,0.0,1.0,0.0,Malabo sewage-and-drainage network constructed (Au
+GNQ,2011,0.0,0.0,1.0,0.0,Post-project period: Malabo sewer system operation
+GNQ,2023,0.0,0.0,1.0,0.0,= last period
+GRC,1961,0.05,0.05,0.85,0.05,Pre-EU-accession period; centralized sewage treatm
+GRC,1981,0.15,0.1,0.7,0.05,EU accession (1981) and Directives 86/278/EEC (198
+GRC,2000,0.25,0.13,0.57,0.05,EU Landfill Directive 1999/31/EC (1999) creates pr
+GRC,2016,0.317,0.173,0.51,0.0,"Directly measured: 119,770 t sludge produced in 20"
+GRC,2021,0.33,0.14,0.51,0.02,Greece did not report quantitative sludge-disposal
+GRC,2023,0.33,0.14,0.51,0.02,= last period
+GTM,1961,0.0,0.0,1.0,0.0,Virtually no centralized wastewater treatment exis
+GTM,1986,0.0,0.038,0.962,0.0,Slow expansion of a handful of municipal PTARs (ma
+GTM,2000,0.0,0.052,0.948,0.0,Pre-regulation period; sludge disposal remained la
+GTM,2007,0.03,0.075,0.896,0.0,Acuerdo Gubernativo 236-2006 (Reglamento de las De
+GTM,2016,0.043,0.1,0.857,0.0,Continued slow expansion of municipal PTARs (672 o
+GTM,2023,0.043,0.1,0.857,0.0,= last period
+HKG,1961,0.0,0.03,0.95,0.02,Pre-centralized-sludge-management era. Sewerage co
+HKG,1997,0.0,0.02,0.96,0.02,"Audit Commission report (2006, Chapter 8) document"
+HKG,2001,0.0,0.02,0.96,0.02,HATS Stage 1 commissioning (2001) sharply increase
+HKG,2006,0.0,0.02,0.95,0.03,Continued landfill-dominant disposal while the Slu
+HKG,2015,0.0,0.02,0.08,0.9,"T·PARK (Tuen Mun) Phase 1 opened April 2015, Phase"
+HKG,2023,0.0,0.02,0.08,0.9,= last period
+HND,1961,0.025,0.1,0.875,0.0,Negligible centralized sewered wastewater treatmen
+HND,1986,0.025,0.1,0.875,0.0,Urban sewerage expanding (reaching ~66% urban conn
+HND,2006,0.037,0.15,0.812,0.0,Continued expansion of stabilization-pond plants i
+HND,2016,0.037,0.15,0.812,0.0,No evidence found of a shift in Honduras sludge ma
+HND,2023,0.037,0.15,0.812,0.0,= last period
+HRV,1961,0.05,0.05,0.85,0.05,No systematic Croatian or Eurostat data exist for 
+HRV,1991,0.1,0.1,0.75,0.05,War (1991-1995) and post-war reconstruction slowed
+HRV,2010,0.04,0.13,0.8,0.03,"Eurostat env_ww_spd (urban+other WWTP combined, dr"
+HRV,2020,0.02,0.75,0.15,0.08,Eurostat env_ww_spd (urban+other WWTP combined): 2
+HRV,2023,0.02,0.75,0.15,0.08,= last period
+HUN,1961,0.03,0.05,0.87,0.05,No systematic Hungarian sludge-disposal statistics
+HUN,1990,0.05,0.1,0.8,0.05,Post-1990 transition period: wastewater infrastruc
+HUN,2004,0.2,0.3,0.4,0.1,EU accession (2004) triggers transposition of the 
+HUN,2013,0.378,0.546,0.02,0.056,Directly sourced 2013 baseline from Hungary's Nati
+HUN,2014,0.35,0.44,0.03,0.18,Extrapolated forward from the 2013 baseline using 
+HUN,2023,0.35,0.44,0.03,0.18,= last period
+IDN,1961,0.05,0.05,0.9,0.0,Centralized sewage treatment essentially absent; n
+IDN,1991,0.02,0.05,0.93,0.0,First centralized WWTPs (Bandung Bojongsoang waste
+IDN,2006,0.02,0.06,0.92,0.0,"Bali DSDP (2008), SANIMAS/DEWATS decentralized exp"
+IDN,2016,0.02,0.08,0.89,0.01,National sanitation push (Universal Access / 100-0
+IDN,2023,0.02,0.08,0.89,0.01,= last period
+IND,1961,0.15,0.3,0.54,0.01,Centralized treatment minimal pre-1975; a few lega
+IND,1986,0.17,0.33,0.49,0.01,Ganga Action Plan (1985/86) and state boards added
+IND,2006,0.18,0.34,0.47,0.01,JNNURM (2005) STP expansion; MSW Rules era. Landfi
+IND,2015,0.18,0.36,0.45,0.01,"Swachh Bharat Mission, NFSSM Alliance, MoHUA FSSM "
+IND,2023,0.18,0.36,0.45,0.01,= last period
+IRL,2005,0.75,0.08,0.17,0.0,STRIVE 123 (EPA Ireland): landfill at 17% of sludg
+IRL,2007,0.7,0.29,0.01,0.0,STRIVE 123 (EPA Ireland): 70% of sludge recycled t
+IRL,2009,0.62,0.379,0.001,0.0,STRIVE 123 (EPA Ireland): agricultural recycling f
+IRL,2022,0.93,0.07,0.0,0.0,EPA Ireland 'Urban Waste Water Treatment in 2022 R
+IRL,2023,0.93,0.07,0.0,0.0,= last period
+IRN,1961,0.15,0.1,0.75,0.0,Negligible centralized sewered treatment pre-1975 
+IRN,1975,0.13,0.07,0.8,0.0,"Early WWTPs come online (Isfahan 1970s, others); l"
+IRN,2000,0.13,0.06,0.8,0.01,"Rapid WWTP expansion (~194 plants by 2017, ~42% of"
+IRN,2023,0.13,0.06,0.8,0.01,= last period
+IRQ,1961,0.35,0.1,0.25,0.3,Centralized sewerage and treatment essentially abs
+IRQ,1975,0.35,0.1,0.25,0.3,Ba'athist-era infrastructure expansion brings ~23 
+IRQ,1991,0.35,0.1,0.25,0.3,Gulf War damage (252 pumping stations halted) and 
+IRQ,2003,0.35,0.1,0.25,0.3,Post-invasion reconstruction (~US$2.6bn by 2005) p
+IRQ,2014,0.35,0.1,0.25,0.3,"ISIS-conflict damage (2014-2017, ~US$1.4bn WASH da"
+IRQ,2023,0.35,0.1,0.25,0.3,= last period
+ISL,1961,0.0,0.02,0.98,0.0,"No sourced data. Pre-EEA, minimal centralized wast"
+ISL,1986,0.02,0.03,0.9,0.05,EU Sludge Directive 86/278/EEC era; Iceland joins 
+ISL,2000,0.02,0.08,0.88,0.02,Reykjavik primary (mechanical/screening) treatment
+ISL,2017,0.0,0.15,0.85,0.0,Extension of primary-treatment model to additional
+ISL,2023,0.0,0.15,0.85,0.0,= last period
+ISR,1961,0.3,0.35,0.35,0.0,"LOW-CONFIDENCE ESTIMATE, not a verified data serie"
+ISR,2017,0.95,0.0,0.05,0.0,Israel Ministry of Environmental Protection annual
+ISR,2023,0.95,0.0,0.05,0.0,= last period
+ITA,1961,0.052,0.052,0.876,0.021,No quantitative national sludge-disposal data loca
+ITA,1986,0.15,0.1,0.7,0.05,EU Sewage Sludge Directive 86/278/EEC (1986) trans
+ITA,1999,0.13,0.25,0.57,0.05,EU Landfill Directive 1999/31/EC (1999) targeted b
+ITA,2015,0.1,0.32,0.5,0.08,Synthesis of: (i) ISPRA Rapporto Rifiuti Speciali 
+ITA,2023,0.1,0.32,0.5,0.08,= last period
+JAM,1961,0.02,0.03,0.9,0.05,No dedicated national wastewater/sludge regulation
+JAM,1986,0.03,0.05,0.87,0.05,Global reference breakpoint (EU Sewage Sludge Dire
+JAM,2000,0.03,0.07,0.85,0.05,Pre-2013-Regulation period; Soapberry Wastewater T
+JAM,2014,0.05,0.15,0.75,0.05,Natural Resources Conservation (Wastewater and Slu
+JAM,2023,0.05,0.15,0.75,0.05,= last period
+JOR,1961,0.02,0.03,0.9,0.05,Essentially no centralized wastewater treatment in
+JOR,1979,0.05,0.1,0.83,0.02,Ain Ghazal and later As-Samra WWTPs came online (o
+JOR,2000,0.08,0.15,0.75,0.02,Major As-Samra WWTP BOT expansion completed 2008 (
+JOR,2016,0.1,0.2,0.68,0.02,Jordan's National Water Strategy (2016-2025) and s
+JOR,2023,0.1,0.2,0.68,0.02,= last period
+JPN,1961,0.05,0.05,0.75,0.15,Sewerage connection rate was in the single digits 
+JPN,1971,0.08,0.07,0.55,0.3,Sewerage expansion (connection rate ~15%->~36%) in
+JPN,1986,0.05,0.08,0.37,0.5,Continued sewerage growth (connection rate ~36%->~
+JPN,2001,0.03,0.09,0.28,0.6,Following Japan's 2000 Basic Act for Establishing 
+JPN,2015,0.02,0.09,0.14,0.75,Present-day regime: MLIT sludge 'effective utiliza
+JPN,2023,0.02,0.09,0.14,0.75,= last period
+KAZ,1961,0.03,0.55,0.42,0.0,"Qualitative/inferred, very low confidence. Central"
+KAZ,1975,0.04,0.55,0.41,0.0,Qualitative/inferred. Soviet-era expansion of muni
+KAZ,1992,0.02,0.55,0.43,0.0,Qualitative/inferred. Post-Soviet economic collaps
+KAZ,2001,0.04,0.55,0.41,0.0,Ospanov/Kuldeyeva/Adilhanov (cawater-info.net) tec
+KAZ,2016,0.05,0.5,0.45,0.0,"Continued IFI-financed modernization (e.g., EBRD ~"
+KAZ,2023,0.05,0.5,0.45,0.0,= last period
+KEN,1961,0.0,0.077,0.923,0.0,Assumed (low confidence; no national data located)
+KEN,1980,0.041,0.137,0.822,0.0,Expansion of waste-stabilization-pond treatment (e
+KEN,2000,0.049,0.148,0.802,0.0,Water Act 2002 reforms and WASREB's establishment 
+KEN,2015,0.05,0.15,0.8,0.0,Present-day estimate reflecting continued low sewe
+KEN,2023,0.05,0.15,0.8,0.0,= last period
+KGZ,1961,0.0,1.0,0.0,0.0,Assumption/low confidence: centralized sewerage es
+KGZ,1975,0.022,0.955,0.022,0.0,Inferred from general Soviet-era Central Asian urb
+KGZ,1992,0.0,0.947,0.053,0.0,Post-independence infrastructure decay; plants par
+KGZ,2011,0.0,0.947,0.053,0.0,IFI-funded rehabilitation planning begins (ADB Iss
+KGZ,2022,0.0,0.947,0.053,0.0,Issyk-Kul Sludge Management Plan submitted Oct 202
+KGZ,2023,0.0,0.947,0.053,0.0,= last period
+KOR,1961,0.011,0.011,0.978,0.0,No centralized-treatment sludge-disposal data loca
+KOR,1991,0.025,0.062,0.875,0.037,Only anchored figures found: total 'sludge reuse/r
+KOR,2003,0.043,0.143,0.643,0.171,Assumed (low confidence; no national data located)
+KOR,2012,0.047,0.212,0.212,0.529,Assumed (low confidence; no national data located)
+KOR,2017,0.05,0.25,0.05,0.65,Assumed (low confidence; no national data located)
+KOR,2023,0.05,0.25,0.05,0.65,= last period
+KWT,1961,0.02,0.03,0.9,0.05,Assumed (low confidence; no national data located)
+KWT,1980,0.03,0.12,0.82,0.03,Low confidence: reflects the buildout of Kuwait's 
+KWT,2004,0.04,0.24,0.7,0.02,Low confidence: post-Sulaibiya-commissioning perio
+KWT,2018,0.05,0.28,0.65,0.02,Low confidence: reflects further treatment-capacit
+KWT,2023,0.05,0.28,0.65,0.02,= last period
+LAO,1961,0.0,0.1,0.9,0.0,Assumed (low confidence; no national data located)
+LAO,1990,0.0,0.05,0.95,0.0,Assumed (low confidence; no national data located)
+LAO,2010,0.03,0.12,0.85,0.0,Transition period during which AFD/Gret-supported 
+LAO,2017,0.1,0.2,0.7,0.0,Vientiane's first fecal sludge treatment plant (pl
+LAO,2023,0.1,0.2,0.7,0.0,= last period
+LBN,1961,0.0,0.3,0.7,0.0,Pre-civil-war baseline: minimal centralized sewera
+LBN,1975,0.0,0.3,0.7,0.0,Civil war period: institutional wastewater managem
+LBN,1991,0.0,0.35,0.65,0.0,Post-war NERP reconstruction; Ghadir plant (1997) 
+LBN,2001,0.02,0.28,0.7,0.0,CDR sludge master plan (2000-2003) evaluated agric
+LBN,2011,0.02,0.28,0.7,0.0,Pre-2019-crisis peak treatment (20-30% of wastewat
+LBN,2019,0.0,0.3,0.7,0.0,Economic/financial crisis sharply cut operational 
+LBN,2023,0.0,0.3,0.7,0.0,= last period
+LBY,1961,0.02,0.03,0.95,0.0,No centralized wastewater treatment infrastructure
+LBY,1976,0.05,0.05,0.9,0.0,Oil-boom-era infrastructure investment produced mu
+LBY,2000,0.08,0.05,0.87,0.0,"FAO AQUASTAT (I9803EN.pdf, 2016 report using 2010/"
+LBY,2011,0.02,0.03,0.95,0.0,Libyan Civil War (2011) and subsequent prolonged c
+LBY,2023,0.02,0.03,0.95,0.0,= last period
+LTU,1961,0.02,0.03,0.95,0.0,No Lithuania-specific data found for the Soviet er
+LTU,1991,0.05,0.05,0.9,0.0,Post-independence transition period; no direct dat
+LTU,2004,0.35,0.35,0.27,0.03,EU accession (2004) triggers UWWTD/Sewage Sludge D
+LTU,2018,0.407,0.45,0.093,0.05,Directly sourced two-year average from Bendoraitie
+LTU,2020,0.299,0.308,0.04,0.352,Directly sourced from same paper (Sustainability 2
+LTU,2023,0.299,0.308,0.04,0.352,= last period
+LUX,1961,0.05,0.05,0.7,0.2,No direct Luxembourg data located for this period.
+LUX,1986,0.3,0.1,0.45,0.15,Post-transposition of EU Sewage Sludge Directive 8
+LUX,1999,0.4,0.05,0.1,0.45,EU Landfill Directive 1999/31/EC drives diversion 
+LUX,2015,0.3,0.02,0.02,0.66,Land application declined from ~43% (2015) toward 
+LUX,2022,0.1,0.003,0.0,0.897,2022: incineration 89.7% (domestic LU 36.9% + expo
+LUX,2023,0.1,0.003,0.0,0.897,= last period
+LVA,1961,0.05,0.35,0.6,0.0,No direct Latvia-specific data located for this pe
+LVA,1991,0.05,0.35,0.6,0.0,Post-independence economic transition; WWTP infras
+LVA,2004,0.15,0.45,0.4,0.0,EU accession (2004) triggers transposition of the 
+LVA,2018,0.13,0.87,0.0,0.0,EU Directive 2018/850 (organic-waste landfill dive
+LVA,2024,0.05,0.95,0.0,0.0,"MDPI Recycling 2025, 11(4):64 (doi:10.3390/recycli"
+MAR,1961,0.021,0.032,0.947,0.0,Centralized sewage treatment was essentially absen
+MAR,1980,0.021,0.032,0.947,0.0,Early WWTP construction phase (predominantly ONEP-
+MAR,2006,0.05,0.08,0.85,0.02,PNAL program period: sewer connection and treatmen
+MAR,2021,0.06,0.1,0.82,0.02,Continued expansion of treatment coverage under na
+MAR,2023,0.06,0.1,0.82,0.02,= last period
+MDA,1961,0.05,0.55,0.35,0.05,assumption: minimal centralized treatment in Sovie
+MDA,1975,0.1,0.55,0.3,0.05,assumption: Soviet-era expansion of urban sewerage
+MDA,1991,0.05,0.55,0.35,0.05,"assumption: post-Soviet economic collapse, WWTP di"
+MDA,2005,0.05,0.5,0.4,0.05,assumption: EU Neighbourhood/Association Agreement
+MDA,2017,0.07,0.43,0.45,0.05,assumption: continued EU-approximation reforms (As
+MDA,2023,0.07,0.43,0.45,0.05,= last period
+MEX,1961,0.02,0.08,0.9,0.0,Centralized treatment minimal pre-CONAGUA era; lit
+MEX,1975,0.05,0.1,0.85,0.0,Treatment coverage growing but still <20% of waste
+MEX,1991,0.08,0.12,0.8,0.0,Cardoso et al. (2000) 8-plant survey: ~37.5% sanit
+MEX,2003,0.09,0.13,0.77,0.01,"NOM-004-SEMARNAT-2002 in force (2003), promoting b"
+MEX,2015,0.1,0.13,0.76,0.01,Present. Springer/Ocotlan LCA (2025): '76% landfil
+MEX,2023,0.1,0.13,0.76,0.01,= last period
+MKD,1961,0.0,0.05,0.95,0.0,"Qualitative/structural estimate, no MK-specific da"
+MKD,1991,0.01,0.04,0.95,0.0,Qualitative/structural estimate. Post-independence
+MKD,2005,0.02,0.05,0.93,0.0,Qualitative/structural estimate informed by EU can
+MKD,2017,0.02,0.08,0.9,0.0,Anchored to EPI/EBRD (2019) finding that only ~15%
+MKD,2023,0.02,0.08,0.9,0.0,= last period
+MLT,1961,0.0,0.0,1.0,0.0,Very low confidence / largely inapplicable: essent
+MLT,1983,0.0,0.0,1.0,0.0,Low confidence: Sant'Antnin plant (primary treatme
+MLT,2007,0.0,0.0,1.0,0.0,Transition period: Gozo/Ras il-Hobz plant operatio
+MLT,2011,0.0,0.05,0.95,0.0,Moderate-low confidence. ERA sewage-sludge statist
+MLT,2022,0.0,0.05,0.95,0.0,Low confidence forward extrapolation: EU infringem
+MLT,2023,0.0,0.05,0.95,0.0,= last period
+MNE,1961,0.0,0.053,0.947,0.0,"Pre-1978 (first WWTP, Podgorica) there was essenti"
+MNE,1978,0.0,0.053,0.947,0.0,Single (Podgorica) secondary WWTP operating from 1
+MNE,1999,0.0,0.105,0.895,0.0,"By 2014: 4 WWTPs (secondary treatment), 43% nation"
+MNE,2014,0.0,0.158,0.789,0.053,Expansion to 11+ municipal WWTPs; by 2024 SDG6 mon
+MNE,2023,0.0,0.158,0.789,0.053,= last period
+MNG,1961,0.0,0.05,0.95,0.0,No/minimal centralized treatment in this period; e
+MNG,1976,0.0,0.1,0.87,0.03,CWWTP operating under Soviet/post-Soviet system; s
+MNG,2000,0.02,0.15,0.8,0.03,UB population/sewer-load growth outpaces plant cap
+MNG,2016,0.02,0.18,0.78,0.02,CWWTP rehabilitation underway (ADB/World Bank/JICA
+MNG,2023,0.02,0.18,0.78,0.02,= last period
+MUS,1961,0.0,0.0,1.0,0.0,No/negligible centralized sewage treatment existed
+MUS,1976,0.0,0.0,1.0,0.0,Continued minimal centralized treatment; no nation
+MUS,1987,0.0,0.02,0.98,0.0,Post 1994 National Sewerage Masterplan and 1998 Se
+MUS,2001,0.0,0.02,0.98,0.0,WMA established (Act proclaimed 2001); Grand Baie 
+MUS,2008,0.0,0.02,0.98,0.0,"Major plants (Montagne Jacquot, St Martin, Grand B"
+MUS,2023,0.0,0.02,0.98,0.0,= last period
+MYS,1961,0.0,0.05,0.9,0.05,Pre-IWK era (before the 1994 nationwide sewerage c
+MYS,1994,0.0,0.05,0.75,0.2,IWK concession (1994) begins expanding centralized
+MYS,2005,0.01,0.08,0.7,0.21,Environmental Quality (Scheduled Wastes) Regulatio
+MYS,2017,0.02,0.1,0.65,0.23,Continued sewerage expansion and modernization (po
+MYS,2023,0.02,0.1,0.65,0.23,= last period
+NAM,1961,0.35,0.1,0.25,0.3,Centralized sewerage essentially limited to Windho
+NAM,1975,0.35,0.1,0.25,0.3,Slow expansion of urban sewerage in Windhoek/coast
+NAM,1990,0.35,0.1,0.25,0.3,Post-independence (1990) institution-building (Nam
+NAM,2005,0.35,0.1,0.25,0.3,Continued urban sewerage expansion but rural/infor
+NAM,2019,0.35,0.1,0.25,0.3,"Current state, consistent with continued severe sa"
+NAM,2023,0.35,0.1,0.25,0.3,= last period
+NGA,1961,0.02,0.03,0.95,0.0,No meaningful centralized wastewater treatment or 
+NGA,1991,0.03,0.07,0.9,0.0,FCT (Abuja) Wupa Sewage Treatment Plant commission
+NGA,2010,0.04,0.1,0.86,0.0,Lagos State created a State Wastewater Management 
+NGA,2017,0.05,0.1,0.85,0.0,"Scattered state-level FSM programs/pilots (e.g., K"
+NGA,2023,0.05,0.1,0.85,0.0,= last period
+NIC,1961,0.35,0.1,0.25,0.3,Negligible centralized sewage collection/treatment
+NIC,1975,0.35,0.1,0.25,0.3,"Small, growing number of municipal waste-stabiliza"
+NIC,1999,0.35,0.1,0.25,0.3,Continued expansion of ENACAL-operated stabilizati
+NIC,2009,0.35,0.1,0.25,0.3,Managua WWTP (Los Brasiles) operational from Feb 2
+NIC,2023,0.35,0.1,0.25,0.3,= last period
+NLD,1961,0.15,0.15,0.6,0.1,No direct statistical series located for this peri
+NLD,1981,0.25,0.1,0.55,0.1,"CBS/CLO (Compendium voor de Leefomgeving, 'Afzet v"
+NLD,1995,0.05,0.2,0.2,0.55,1995: agricultural land application effectively cu
+NLD,2006,0.01,0.04,0.02,0.93,CBS reports landfilling of municipal sludge become
+NLD,2016,0.0,0.025,0.005,0.97,"CBS/CLO 2022 data: 97% incinerated, ~0.5% landfill"
+NLD,2023,0.0,0.025,0.005,0.97,= last period
+NOR,1961,0.05,0.05,0.7,0.2,Pre-modern-treatment era: centralized sewage treat
+NOR,1985,0.15,0.25,0.5,0.1,"North Sea Declarations (1987, 1990) and Oslofjord "
+NOR,2000,0.2,0.35,0.35,0.1,"Gjodselvareforskriften (FOR-2003-07-04-951, Regula"
+NOR,2009,0.46,0.31,0.03,0.2,The 1 July 2009 ban on landfilling biodegradable w
+NOR,2023,0.46,0.31,0.03,0.2,= last period
+NZL,1961,0.02,0.03,0.9,0.05,"Very high uncertainty, expert estimate only (not v"
+NZL,1991,0.05,0.15,0.75,0.05,"High uncertainty, expert estimate. Resource Manage"
+NZL,2003,0.08,0.27,0.6,0.05,"Moderate-high uncertainty, expert estimate. Formal"
+NZL,2016,0.1,0.35,0.5,0.05,"Moderate uncertainty, expert estimate. Rising land"
+NZL,2023,0.1,0.35,0.5,0.05,= last period
+OMN,1961,0.0,0.0,1.0,0.0,assumed - no documented centralized wastewater tre
+OMN,1976,0.0,0.05,0.95,0.0,assumed - gradual introduction of small municipal 
+OMN,2000,0.0,0.3,0.7,0.0,reasoned from Haya Water's 2001 establishment and 
+OMN,2012,0.02,0.68,0.3,0.0,reasoned from continued expansion of Haya Water an
+OMN,2023,0.02,0.68,0.3,0.0,= last period
+PAK,1961,0.05,0.05,0.9,0.0,Qualitative/inferred: negligible centralized sewer
+PAK,1976,0.053,0.053,0.895,0.0,Qualitative/inferred: first primary WWTPs built in
+PAK,2000,0.053,0.053,0.895,0.0,Same qualitative regime continues; a 2016 Express 
+PAK,2016,0.053,0.105,0.842,0.0,Slight uptick assumed from donor-funded WWTP proje
+PAK,2023,0.053,0.105,0.842,0.0,= last period
+PAN,1961,0.0,0.05,0.9,0.05,No centralized treatment infrastructure of consequ
+PAN,1976,0.0,0.05,0.9,0.05,Continued reliance on raw/untreated discharge in P
+PAN,2000,0.0,0.05,0.9,0.05,Construction phase of the IDB/JICA-financed Panama
+PAN,2017,0.02,0.08,0.85,0.05,Juan Diaz WWTP (Panama City metro) becomes operati
+PAN,2023,0.02,0.08,0.85,0.05,= last period
+PER,1961,0.02,0.03,0.95,0.0,Essentially no centralized wastewater treatment ex
+PER,1998,0.03,0.05,0.92,0.0,Treatment coverage rose to ~22% by 2004 but remain
+PER,2013,0.05,0.07,0.88,0.0,Large mechanical WWTPs commissioned in Lima (Taboa
+PER,2023,0.05,0.07,0.88,0.0,= last period
+PHL,1961,0.02,0.13,0.85,0.0,Analyst estimate (no PH statistics located). Centr
+PHL,1999,0.05,0.24,0.7,0.01,Analyst estimate informed by: (1) RA 8749 Philippi
+PHL,2023,0.05,0.24,0.7,0.01,= last period
+POL,2009,0.32,0.385,0.135,0.16,"Kacprzak, Rosikon & Fijalkowski (2019), doi:10.100"
+POL,2022,0.31,0.47,0.0,0.22,"Ministry of Infrastructure/Poland (2025), 'Gospoda"
+POL,2023,0.31,0.47,0.0,0.22,= last period
+PRI,1961,0.0,0.0,1.0,0.0,Judgment/low confidence: minimal centralized sewer
+PRI,1976,0.0,0.0,0.611,0.389,Judgment based on documented Puerto Nuevo RWWTP sl
+PRI,2000,0.0,0.021,0.619,0.361,NBDP/PRASA sources: Puerto Nuevo incineration cont
+PRI,2018,0.04,0.227,0.733,0.0,National Biosolids Data Project 2018 narrative + P
+PRI,2023,0.04,0.227,0.733,0.0,= last period
+PRK,1961,0.05,0.15,0.8,0.0,No sludge-disposal data exist for this period. Qua
+PRK,1990,0.03,0.1,0.87,0.0,1990s economic collapse and famine (Arduous March)
+PRK,2000,0.03,0.12,0.85,0.0,Nkeconwatch (2010) field/satellite survey document
+PRK,2012,0.08,0.12,0.8,0.0,Pot'onggang Organic Fertiliser Factory opens (2012
+PRK,2023,0.08,0.12,0.8,0.0,= last period
+PRT,1961,0.05,0.05,0.9,0.0,No direct data found. Before EU accession (1986) a
+PRT,1986,0.11,0.59,0.3,0.0,Single Eurostat env_ww_spd data point for Portugal
+PRT,2004,0.889,0.02,0.09,0.001,Average of three Eurostat env_ww_spd anchor years 
+PRT,2013,0.25,0.71,0.04,0.0,"Average of two Eurostat env_ww_spd anchor years, u"
+PRT,2017,0.2,0.7,0.08,0.02,NOT a measured data point - Portugal has reported 
+PRT,2023,0.2,0.7,0.08,0.02,= last period
+PSE,1961,0.0,0.0,1.0,0.0,No centralized sewage treatment infrastructure exi
+PSE,1970,0.0,0.0,1.0,0.0,First municipal WWTPs built under occupation (1970
+PSE,1994,0.0,0.029,0.971,0.0,PA/PWA era; sewer connection rising 39%(1999)->55%
+PSE,2011,0.012,0.05,0.938,0.0,Slightly expanded WWTP network in West Bank and Ga
+PSE,2023,0.0,0.048,0.952,0.0,Gaza war (Oct 2023 onward) severely damaged wastew
+QAT,1961,0.0,0.05,0.9,0.05,Essentially no centralized wastewater/sludge treat
+QAT,1981,0.0,0.05,0.9,0.05,Analyst estimate only: as piped sewerage and STPs 
+QAT,2001,0.02,0.13,0.8,0.05,Analyst estimate only: growth of Qatar's 'green be
+QAT,2016,0.01,0.19,0.75,0.05,"Analyst estimate only, informed by (a) verified 10"
+QAT,2023,0.01,0.19,0.75,0.05,= last period
+ROU,1961,0.01,0.09,0.85,0.05,No disaggregated Romanian sludge-disposal statisti
+ROU,1990,0.021,0.134,0.825,0.021,Post-1989 economic contraction degraded much exist
+ROU,2007,0.03,0.3,0.62,0.05,EU accession (2007) triggers transposition of the 
+ROU,2014,0.23,0.26,0.49,0.02,Eurostat env_ww_spd shows total sludge production 
+ROU,2023,0.23,0.26,0.49,0.02,= last period
+RUS,1961,0.03,0.05,0.92,0.0,Early/expanding Soviet centralized treatment; slud
+RUS,1975,0.05,0.05,0.9,0.0,"Soviet peak: large plants (Kuryanovo, Lyubertsy) w"
+RUS,1991,0.03,0.06,0.86,0.05,Post-Soviet decline: loss of collective-farm deman
+RUS,2006,0.04,0.08,0.78,0.1,St Petersburg adds North (2007) and South-West (20
+RUS,2016,0.04,0.09,0.75,0.12,St Petersburg incinerating essentially 100% of cit
+RUS,2023,0.04,0.09,0.75,0.12,= last period
+SAU,1961,0.0,0.0,1.0,0.0,Pre-centralized-treatment era. Centralized sewerag
+SAU,1980,0.0,0.05,0.93,0.02,Oil-boom-funded WWTP construction expands sewer/tr
+SAU,2000,0.03,0.17,0.78,0.02,NWC formation (2008) and TSE-reuse-initiative expa
+SAU,2016,0.05,0.28,0.6,0.07,Vision 2030/National Water Strategy 2030 (2016) pu
+SAU,2023,0.05,0.28,0.6,0.07,= last period
+SEN,1961,0.05,0.1,0.8,0.05,Colonial-era Camberene plant existed but treatment
+SEN,1986,0.1,0.1,0.75,0.05,ONAS created 1996 (took over sanitation from SONEE
+SEN,2000,0.2,0.2,0.55,0.05,ONAS expansion of fecal-sludge treatment plants (S
+SEN,2015,0.3,0.25,0.4,0.05,World Bank WICER report on Dakar documents active 
+SEN,2020,0.3,0.2,0.25,0.25,Delvic Sanitation Initiatives Omniprocessor (combu
+SEN,2023,0.3,0.2,0.25,0.25,= last period
+SGP,1961,0.0,0.0,0.7,0.3,VERY LOW CONFIDENCE / no source found. Sewerage an
+SGP,1971,0.0,0.0,0.4,0.6,LOW CONFIDENCE / no disaggregated source found. Pr
+SGP,1999,0.0,0.0,0.15,0.85,Semakau offshore landfill opens 1 Apr 1999 (verifi
+SGP,2009,0.0,0.0,0.05,0.95,Changi WRP (DTSS Phase 1) operational from Jun 200
+SGP,2023,0.0,0.03,0.02,0.95,Assumed (low confidence; no national data located)
+SLV,1961,0.35,0.1,0.25,0.3,Centralized sewerage and treatment essentially abs
+SLV,1986,0.35,0.1,0.25,0.3,Slow expansion of urban sewerage under ANDA; still
+SLV,2000,0.35,0.1,0.25,0.3,Post-EU Landfill Directive era used only as a glob
+SLV,2014,0.35,0.1,0.25,0.3,~8.5% of wastewater receiving some treatment (2014
+SLV,2021,0.35,0.1,0.25,0.3,PLANAPS (2017) and IDB water/sanitation loan progr
+SLV,2023,0.35,0.1,0.25,0.3,= last period
+SRB,1961,0.0,0.6,0.4,0.0,No quantitative data located; centralized wastewat
+SRB,1986,0.02,0.48,0.5,0.0,"Yugoslav wars, UN sanctions, and economic collapse"
+SRB,2000,0.03,0.42,0.55,0.0,Eurostat env_ww_spd shows total Serbian sludge qua
+SRB,2010,0.05,0.35,0.6,0.0,Eurostat env_ww_spd shows sludge tonnage rising fu
+SRB,2020,0.05,0.35,0.55,0.05,Eurostat env_ww_spd shows sludge tonnage reaching 
+SRB,2023,0.05,0.35,0.55,0.05,= last period
+SVK,1961,0.375,0.0,0.625,0.0,NO Eurostat or other data available for this perio
+SVK,1970,0.4,0.0,0.6,0.0,Eurostat env_ww_spd reports ONLY the agricultural-
+SVK,1990,0.326,0.0,0.652,0.022,Eurostat env_ww_spd: agricultural-use tonnage fell
+SVK,2000,0.0,0.55,0.42,0.03,"Eurostat env_ww_spd (SLD_AGR, SLD_COMP, SLD_LAND, "
+SVK,2011,0.0,0.62,0.19,0.19,"Eurostat env_ww_spd, denominator = sum of SLD_AGR+"
+SVK,2020,0.0,0.71,0.03,0.26,"Eurostat env_ww_spd, average of 2019-2023 reported"
+SVK,2023,0.0,0.71,0.03,0.26,= last period
+SVN,1961,0.05,0.05,0.9,0.0,No Eurostat env_ww_spd reporting exists for Sloven
+SVN,1998,0.06,0.26,0.68,0.0,Derived from Eurostat env_ww_spd (dataset code env
+SVN,2006,0.0,0.35,0.19,0.46,"Eurostat env_ww_spd, SI, THS_T, summed 2006-2013: "
+SVN,2014,0.0,0.6,0.01,0.39,"Eurostat env_ww_spd, SI, THS_T, summed 2014-2019: "
+SVN,2020,0.0,0.71,0.03,0.26,"Eurostat env_ww_spd, SI, THS_T, summed 2020-2024 ("
+SVN,2023,0.0,0.71,0.03,0.26,= last period
+SWE,2016,0.34,0.27,0.22,0.17,SEI (Stockholm Environment Institute) 2020 policy 
+SWE,2018,0.39,0.34,0.26,0.01,SCB statistical news 'Utsläpp till vatten och slam
+SWE,2020,0.46,0.36,0.16,0.02,"SCB/Naturvårdsverket 2020 data (total 208,348 t DM"
+SWE,2023,0.45,0.35,0.17,0.03,SCALES synthesized current estimate: extrapolation
+SYR,1961,0.0,0.0,1.0,0.0,Centralized sewage treatment essentially absent in
+SYR,1975,0.05,0.15,0.8,0.0,Major activated-sludge and oxidation-pond plants c
+SYR,2001,0.06,0.15,0.79,0.0,Continuation of prior regime with slight assumed i
+SYR,2011,0.03,0.12,0.85,0.0,"Post-2011 civil-war damage, chronic power/fuel sho"
+SYR,2023,0.03,0.12,0.85,0.0,= last period
+THA,1961,0.05,0.05,0.7,0.2,Assumed (low confidence; no national data located)
+THA,1981,0.05,0.05,0.7,0.2,Assumed (low confidence; no national data located)
+THA,2001,0.05,0.2,0.65,0.1,Assumed (low confidence; no national data located)
+THA,2023,0.05,0.2,0.65,0.1,= last period
+TJK,1961,0.067,0.2,0.733,0.0,Soviet-era (Tajik SSR) urban centralized sewerage 
+TJK,1991,0.026,0.13,0.844,0.0,Post-independence civil war (1992-1997) and econom
+TJK,2000,0.025,0.152,0.823,0.0,"Slow, partial post-war stabilization; Dushanbe WWT"
+TJK,2017,0.0,0.225,0.775,0.0,Current documented state per CWIS Dushanbe Assessm
+TJK,2023,0.0,0.225,0.775,0.0,= last period
+TKM,1961,0.0,0.2,0.8,0.0,No documented centralized wastewater treatment inf
+TKM,1976,0.05,0.25,0.7,0.0,Soviet-era sewer network expansion in Ashgabat and
+TKM,1992,0.05,0.25,0.7,0.0,Post-Soviet economic collapse and infrastructure d
+TKM,2011,0.05,0.35,0.6,0.0,State-publicized new/rebuilt WWTP capacity in Ashg
+TKM,2023,0.05,0.35,0.6,0.0,= last period
+TUN,1961,0.021,0.032,0.947,0.0,Pre-ONAS period: no national centralized sewage-tr
+TUN,1975,0.021,0.032,0.947,0.0,ONAS expanding sewer network (20.6% in 1975 to 81.
+TUN,2002,0.05,0.05,0.9,0.0,NT 106.20 (2002) creates the first formal legal/te
+TUN,2014,0.08,0.02,0.9,0.0,"Directly sourced: Sabbahi et al. (2022, Int. J. En"
+TUN,2016,0.08,0.03,0.89,0.0,No newer quantitative national dataset was located
+TUN,2023,0.08,0.03,0.89,0.0,= last period
+TUR,1961,0.0,0.05,0.95,0.0,"ESTIMATED (low certainty, tiny denominator). Centr"
+TUR,1975,0.01,0.07,0.92,0.0,ESTIMATED. First municipal WWTPs appear; slow grow
+TUR,1994,0.03,0.12,0.85,0.0,ESTIMATED. EU accession dynamics (candidate status
+TUR,2010,0.04,0.16,0.7,0.1,ESTIMATED. Two 2010 Official Gazette regulations r
+TUR,2018,0.04,0.19,0.57,0.2,PRESENT-DAY estimate (retained current SCALES valu
+TUR,2023,0.04,0.19,0.57,0.2,= last period
+TWN,1961,0.0,0.0,1.0,0.0,Assumed (low confidence; no national data located)
+TWN,1981,0.02,0.08,0.85,0.05,Early expansion of metropolitan WWTPs (e.g. Taipei
+TWN,2001,0.02,0.23,0.45,0.3,Landfill-capacity constraints and rising costs pus
+TWN,2011,0.03,0.32,0.15,0.5,Continued landfill diversion (Taiwan's broader nea
+TWN,2023,0.03,0.32,0.15,0.5,= last period
+UKR,1961,0.02,0.55,0.4,0.03,Pre-centralized-treatment era; Soviet-era WWTPs in
+UKR,1975,0.05,0.6,0.3,0.05,Soviet expansion of centralized sewage/WWTPs (per 
+UKR,1991,0.031,0.561,0.357,0.051,Post-Soviet economic collapse reduced investment i
+UKR,2004,0.031,0.51,0.408,0.051,EU Association Agreement-era (2014) alignment effo
+UKR,2017,0.053,0.421,0.505,0.021,Continued reliance on landfilling and legacy sludg
+UKR,2023,0.053,0.421,0.505,0.021,= last period
+URY,1961,0.01,0.02,0.97,0.0,Very high uncertainty. Centralized wastewater trea
+URY,1981,0.03,0.05,0.92,0.0,Estimated period of initial OSE WWTP construction 
+URY,2000,0.05,0.1,0.85,0.0,Expansion phase: continued World Bank/IDB-funded P
+URY,2013,0.05,0.15,0.8,0.0,Current/recent period: Montevideo's own major seco
+URY,2023,0.05,0.15,0.8,0.0,= last period
+USA,1961,0.03,0.02,0.55,0.4,Pre-Clean Water Act era; centralized secondary tre
+USA,1973,0.15,0.05,0.45,0.35,Post-1972 Clean Water Act construction-grants era 
+USA,1989,0.36,0.1,0.34,0.2,40 CFR Part 503 Standards for the Use or Disposal 
+USA,2005,0.424,0.141,0.283,0.152,NEBRA National Biosolids Data Project (2018 report
+USA,2019,0.32,0.27,0.26,0.15,Most recent EPA Biosolids Annual Report data (faci
+USA,2023,0.32,0.27,0.26,0.15,= last period
+UZB,1961,0.1,0.2,0.65,0.05,Very low centralized sewer/treatment coverage in t
+UZB,1976,0.1,0.2,0.6,0.1,Soviet-era expansion of urban sewer networks and m
+UZB,1992,0.05,0.15,0.75,0.05,Post-independence economic contraction and deferre
+UZB,2001,0.02,0.13,0.8,0.05,World Bank Bukhara and Samarkand Sewerage Project 
+UZB,2016,0.02,0.13,0.8,0.05,ADB Tashkent Province Sewerage Improvement Project
+UZB,2023,0.02,0.13,0.8,0.05,= last period
+VEN,1961,0.0,0.0,1.0,0.0,Centralized treatment essentially absent nationall
+VEN,1975,0.022,0.089,0.889,0.0,Expansion of urban sewerage under HIDROVEN-predece
+VEN,1991,0.033,0.11,0.857,0.0,Peak-era treatment capacity (~33% of collected was
+VEN,2008,0.011,0.044,0.944,0.0,Sharp deterioration of plant operations amid econo
+VEN,2019,0.006,0.028,0.967,0.0,Near-total collapse: 'almost the totality' of nati
+VEN,2023,0.006,0.028,0.967,0.0,= last period
+VNM,1961,0.1,0.1,0.75,0.05,No meaningful centralized municipal wastewater tre
+VNM,1998,0.1,0.1,0.75,0.05,Period of first municipal WWTP construction (17 pl
+VNM,2013,0.03,0.12,0.8,0.05,Continued WWTP expansion but treatment coverage of
+VNM,2023,0.03,0.12,0.8,0.05,= last period
+ZAF,1961,0.25,0.6,0.15,0.0,Centralised treatment limited pre-1975; sludge lan
+ZAF,1975,0.3,0.55,0.15,0.0,Expansion of urban WWTPs; dedicated land disposal 
+ZAF,1997,0.3,0.5,0.2,0.0,Lötter & Pitman (1997) national estimate: agricult
+ZAF,2006,0.3,0.52,0.18,0.0,2006/2009 WRC 5-volume sludge guidelines (TT 261/0
+ZAF,2016,0.3,0.53,0.17,0.0,"LaDePa pelletisation scales (eThekwini, Johannesbu"
+ZAF,2023,0.3,0.53,0.17,0.0,= last period

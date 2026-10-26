@@ -1,0 +1,174 @@
+cropgrids_crop,coello_group
+abaca,Fiber crops
+agave,Fiber crops
+alfalfa,EXCLUDE_forage
+almond,Other crops
+aniseetc,Other crops
+apple,Fruits
+apricot,Fruits
+areca,Other crops
+artichoke,Vegetables
+asparagus,Vegetables
+avocado,Fruits
+bambara,Other crops
+banana,Fruits
+barley,Other Cereals
+bean,Other crops
+beetfor,EXCLUDE_forage
+berrynes,Fruits
+blueberry,Fruits
+brazil,Other crops
+broadbean,Other crops
+buckwheat,Other Cereals
+cabbage,Vegetables
+cabbagefor,EXCLUDE_forage
+canaryseed,Other Cereals
+carob,Other crops
+carrot,Vegetables
+carrotfor,EXCLUDE_forage
+cashew,Other crops
+cashewapple,Fruits
+cassava,Roots and tubers
+castor,Other Oilseeds
+cauliflower,Vegetables
+cerealnes,Other Cereals
+cherry,Fruits
+chestnut,Other crops
+chickpea,Other crops
+chicory,Roots and tubers
+chilleetc,Vegetables
+cinnamon,Other crops
+citrusnes,Fruits
+clove,Other crops
+clover,EXCLUDE_forage
+cocoa,Other crops
+coconut,Other Oilseeds
+coffee,Other crops
+cotton,Fiber crops
+cowpea,Other crops
+cranberry,Fruits
+cucumberetc,Vegetables
+currant,Fruits
+date,Fruits
+eggplant,Vegetables
+fibrenes,Fiber crops
+fig,Fruits
+flax,Other Oilseeds
+fonio,Other Cereals
+fornes,EXCLUDE_forage
+fruitnes,Fruits
+garlic,Vegetables
+ginger,Other crops
+gooseberry,Fruits
+grape,Fruits
+grapefruitetc,Fruits
+grassnes,EXCLUDE_forage
+greenbean,Vegetables
+greenbroadbean,Vegetables
+greencorn,Maize
+greenonion,Vegetables
+greenpea,Vegetables
+groundnut,Other Oilseeds
+hazelnut,Other crops
+hemp,Fiber crops
+hempseed,Fiber crops
+hop,Other crops
+jute,Fiber crops
+jutelikefiber,Fiber crops
+kapokfiber,Fiber crops
+kapokseed,Other Oilseeds
+karite,Other Oilseeds
+kiwi,Fruits
+kolanut,Other crops
+legumenes,Other crops
+lemonlime,Fruits
+lentil,Other crops
+lettuce,Vegetables
+linseed,Other Oilseeds
+lupin,Other crops
+maize,Maize
+maizefor,EXCLUDE_forage
+mango,Fruits
+mate,Other crops
+melonetc,Fruits
+melonseed,Other Oilseeds
+millet,Other Cereals
+mixedgrain,Other Cereals
+mixedgrass,EXCLUDE_forage
+mushroom,Vegetables
+mustard,Other Oilseeds
+nutmeg,Other crops
+nutnes,Other crops
+oats,Other Cereals
+oilpalm,Palm Oil fruit
+oilseedfor,EXCLUDE_forage
+oilseednes,Other Oilseeds
+okra,Vegetables
+olive,Other Oilseeds
+onion,Vegetables
+orange,Fruits
+papaya,Fruits
+pea,Other crops
+peachetc,Fruits
+pear,Fruits
+pepper,Vegetables
+peppermint,Other crops
+persimmon,Fruits
+pigeonpea,Other crops
+pimento,Other crops
+pineapple,Fruits
+pistachio,Other crops
+plantain,Fruits
+plum,Fruits
+popcorn,Maize
+poppy,Other Oilseeds
+potato,Roots and tubers
+pulsenes,Other crops
+pumpkinetc,Vegetables
+pyrethrum,Other crops
+quince,Fruits
+quinoa,Other Cereals
+ramie,Fiber crops
+rapeseed,Other Oilseeds
+rasberry,Fruits
+rice,Rice
+rootnes,Roots and tubers
+rubber,Other crops
+rye,Other Cereals
+ryefor,EXCLUDE_forage
+safflower,Other Oilseeds
+sesame,Other Oilseeds
+sisal,Fiber crops
+sorghum,Other Cereals
+sorghumfor,EXCLUDE_forage
+sourcherry,Fruits
+soybean,Soybean
+spicenes,Other crops
+spinach,Vegetables
+stonefruitnes,Fruits
+strawberry,Fruits
+stringbean,Vegetables
+sugarbeet,Sugar crops
+sugarcane,Sugar crops
+sugarnes,Sugar crops
+sunflower,Other Oilseeds
+swedefor,EXCLUDE_forage
+sweetpotato,Roots and tubers
+tangetc,Fruits
+taro,Roots and tubers
+tea,Other crops
+tobacco,Other crops
+tomato,Vegetables
+triticale,Other Cereals
+tropicalnes,Fruits
+tung,Other Oilseeds
+turnipfor,EXCLUDE_forage
+vanilla,Other crops
+vegetablenes,Vegetables
+vegfor,EXCLUDE_forage
+vetch,Other crops
+walnut,Other crops
+watermelon,Fruits
+wheat,Wheat
+yam,Roots and tubers
+yautia,Roots and tubers

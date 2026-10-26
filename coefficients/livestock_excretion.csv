@@ -1,0 +1,2 @@
+fao_item_code,item_name,ipcc_region,nex_kg_head_yr,status,source
+0,EXAMPLE — replace all rows,NA,NA,NEEDS_SOURCE,IPCC 2019 Refinement Vol.4 Ch.10 Table 10.19 (Nrate) x TAM x 365 (Eq.10.30)

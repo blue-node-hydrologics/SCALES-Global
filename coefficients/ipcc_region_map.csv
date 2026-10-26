@@ -1,0 +1,2 @@
+ISO3,ipcc_region,status,source
+XXX,NA,NEEDS_SOURCE,"IPCC 2019 Vol.4 Ch.10 9-region scheme (N America, W Europe, E Europe, Oceania, Latin America, Africa, Middle East, Asia, Indian subcontinent). Only needed if manure.method=bottom_up."

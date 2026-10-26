@@ -1,0 +1,151 @@
+slug,FAO NAME,fao_item_code,has_cropgrids_file
+abaca,Manila fibre (abaca),809,True
+agave,Agave fibres nes,800,True
+almond,"Almonds, with shell",221,True
+aniseetc,"Anise, badian, fennel, coriander",711,True
+apple,Apples,515,True
+apricot,Apricots,526,True
+areca,Areca nuts,226,True
+artichoke,Artichokes,366,True
+asparagus,Asparagus,367,True
+avocado,Avocados,572,True
+bambara,Bambara beans,203,True
+banana,Bananas,486,True
+barley,Barley,44,True
+bean,"Beans, dry",176,True
+berrynes,Berries nes,558,True
+blueberry,Blueberries,552,True
+brazil,"Brazil nuts, with shell",216,True
+broadbean,"Broad beans, horse beans, dry",181,True
+buckwheat,Buckwheat,89,True
+cabbage,Cabbages and other brassicas,358,True
+canaryseed,Canary seed,101,True
+carob,Carobs,461,True
+carrot,Carrots and turnips,426,True
+cashew,"Cashew nuts, with shell",217,True
+cashewapple,Cashewapple,591,True
+cassava,Cassava,125,True
+castor,Castor oil seed,265,True
+cauliflower,Cauliflowers and broccoli,393,True
+cerealnes,Cereals nes,108,True
+cherry,Cherries,531,True
+chestnut,Chestnut,220,True
+chickpea,Chick peas,191,True
+chicory,Chicory roots,459,True
+chilleetc,"Chillies and peppers, green",401,True
+cinnamon,Cinnamon (cannella),693,True
+citrusnes,"Fruit, citrus nes",512,True
+clove,Cloves,698,True
+cocoa,"Cocoa, beans",661,True
+coconut,Coconuts,249,True
+coffee,"Coffee, green",656,True
+cotton,Seed cotton,328,True
+cowpea,"Cow peas, dry",195,True
+cranberry,Cranberries,554,True
+cucumberetc,Cucumbers and gherkins,397,True
+currant,Currants,550,True
+date,Dates,577,True
+eggplant,Eggplants (aubergines),399,True
+fibrenes,Fibre crops nes,821,True
+fig,Figs,569,True
+flax,Flax fibre and tow,773,True
+fonio,Fonio,94,True
+fruitnes,"Fruit, fresh nes",619,True
+garlic,Garlic,406,True
+ginger,Ginger,720,True
+gooseberry,Gooseberries,549,True
+grape,Grapes,560,True
+grapefruitetc,Grapefruit (inc. pomelos),507,True
+greenbean,"Beans, green",414,True
+greencorn,"Maize, green",446,True
+greenonion,"Onions, shallots, green",402,True
+greenpea,"Peas, green",417,True
+groundnut,"Groundnuts, with shell",242,True
+gums,"Gums, natural",839,False
+hazelnut,"Hazelnuts, with shell",225,True
+hemp,Hemp tow waste,777,True
+hempseed,Hempseed,336,True
+hop,Hops,677,True
+jute,Jute,780,True
+karite,Karite nuts (sheanuts),263,True
+kiwi,Kiwi fruit,592,True
+kolanut,Kola nuts,224,True
+lemonlime,Lemons and limes,497,True
+lentil,Lentils,201,True
+lettuce,Lettuce and chicory,372,True
+linseed,Linseed,333,True
+lupin,Lupins,210,True
+maize,Maize,56,True
+mango,"Mangoes, mangosteens, guavas",571,True
+melonetc,"Melons, other (inc.cantaloupes)",568,True
+melonseed,Melonseed,299,True
+millet,Millet,79,True
+mixedgrain,"Grain, mixed",103,True
+mushroom,Mushrooms and truffles,449,True
+mustard,Mustard seed,292,True
+nutmeg,"Nutmeg, mace and cardamoms",702,True
+nutnes,Nuts nes,234,True
+oats,Oats,75,True
+oilpalm,Oil palm fruit,254,True
+oilseednes,Oilseeds nes,339,True
+okra,Okra,430,True
+olive,Olives,260,True
+onion,"Onions, dry",403,True
+orange,Oranges,490,True
+papaya,Papayas,600,True
+pea,"Peas, dry",187,True
+peachetc,Peaches and nectarines,534,True
+pear,Pears,521,True
+pepper,Pepper (piper spp.),687,True
+peppermint,Peppermint,748,True
+persimmon,Persimmons,587,True
+pineapple,Pineapples,574,True
+pistachio,Pistachios,223,True
+plantain,Plantains and others,489,True
+plum,Plums and sloes,536,True
+poppy,Poppy seed,296,True
+potato,Potatoes,116,True
+pulsenes,Pulses nes,211,True
+pumpkinetc,"Pumpkins, squash and gourds",394,True
+pyrethrum,"Pyrethrum, dried",754,True
+quince,Quinces,523,True
+quinoa,Quinoa,92,True
+ramie,Ramie,788,True
+rapeseed,Rapeseed,270,True
+rasberry,Raspberries,547,True
+rice,"Rice, paddy",27,True
+rootnes,Roots and tubers nes,149,True
+rubber,"Rubber, natural",836,True
+rye,Rye,71,True
+safflower,Safflower seed,280,True
+sesame,Sesame seed,289,True
+sisal,Sisal,789,True
+sorghum,Sorghum,83,True
+sourcherry,"Cherries, sour",530,True
+soybean,Soybeans,236,True
+spicenes,Spices nes,723,True
+spinach,Spinach,373,True
+stonefruitnes,"Fruit, stone nes",541,True
+strawberry,Strawberries,544,True
+stringbean,String beans,423,True
+sugarbeet,Sugar beet,157,True
+sugarcane,Sugar cane,156,True
+sugarnes,Sugar crops nes,161,True
+sunflower,Sunflower seed,267,True
+sweetpotato,Sweet potatoes,122,True
+tangetc,"Tangerines, mandarins, clementines, satsumas",495,True
+taro,Taro (cocoyam),136,True
+tea,Tea,667,True
+tobacco,"Tobacco, unmanufactured",826,True
+tomato,Tomatoes,388,True
+triticale,Triticale,97,True
+tropicalnes,"Fruit, tropical fresh nes",603,True
+tung,Tung nuts,275,True
+vanilla,Vanilla,692,True
+vegfor,"Vegetables, fresh nes",463,True
+vetch,Vetches,205,True
+walnut,"Walnuts, with shell",222,True
+watermelon,Watermelons,567,True
+wheat,Wheat,15,True
+yam,Yams,137,True
+yautia,Yautia (cocoyam),135,True

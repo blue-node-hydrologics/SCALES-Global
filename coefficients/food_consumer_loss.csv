@@ -1,0 +1,12 @@
+region,w_c_1900,w_c_2010,source
+# Post-retail (retail + household) food-loss fraction w_c, from Moree et al. 2013 SI Table 2
+# (= Gustavsson/SIK-FAO 2011). Retail + household losses summed; 1900 uniform (retail 4.8% + household
+# 1.9% = 6.7%), 2010 region-specific. Linearly interpolated between 1900 and 2010, held flat outside.
+Europe,0.067,0.182,"Moree SI Table 2: retail 4.8% + household 13.4% (2010)."
+NorthAmericaOceania,0.067,0.262,"Moree SI Table 2: retail 5.1% + household 21.1% (2010)."
+IndustrializedAsia,0.067,0.154,"Moree SI Table 2: retail 5.4% + household 10.0% (2010)."
+SubSaharanAfrica,0.067,0.102,"Moree SI Table 2: retail 8.3% + household 1.9% (2010)."
+NAfrWCAsia,0.067,0.135,"Moree SI Table 2: retail 6.9% + household 6.6% (2010)."
+SouthSoutheastAsia,0.067,0.111,"Moree SI Table 2: retail 8.1% + household 3.0% (2010)."
+LatinAmerica,0.067,0.120,"Moree SI Table 2: retail 6.3% + household 5.7% (2010)."
+DEFAULT,0.067,0.130,"Global fallback (region unresolved); mid 2010 value."

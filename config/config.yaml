@@ -1,0 +1,220 @@
+# ============================================================================
+# SCALES-Global — model configuration
+# ============================================================================
+# National nitrogen budgets from FAOSTAT and published coefficients, downscaled
+# to a 0.05 degree grid (1961-2023). Three surplus views are produced: cropland,
+# landscape and total anthropogenic. Units: kg N per ha per year.
+# ----------------------------------------------------------------------------
+
+years: [2020, 2022]
+default_year: 2022
+validation_year: 2020
+
+nutrients: [N]
+
+scope: cropland
+
+country_key: ISO3
+
+# --- Paths ---
+# Relative paths resolve against the repository root; absolute paths are used as given.
+# `raw` holds the downloaded input datasets (about 130 GB in total; see README.md).
+paths:
+  coefficients: coefficients
+  raw: data/raw
+  processed: data/processed
+  outputs: data/outputs
+
+# --- FAOSTAT activity data ---
+faostat:
+  bulk_index: https://bulks-faostat.fao.org/production/datasets_E.xml
+  api_base: https://faostatservices.fao.org/api/v1/en/data
+  domains:
+    fertilizer:  RFN     # Fertilizers by Nutrient
+    crops:       QCL     # Crops and livestock products: crop production
+    animals:     QCL     # Crops and livestock products: live-animal stocks
+    manure:      EMN     # Livestock Manure: N applied to soils / left on pasture
+    landuse:     RL      # Land Use: cropland, pasture and land area
+    benchmark:   ESB     # Cropland Nutrient Budget (validation benchmark)
+    population:  OA      # Annual population
+    fert_product: RFB    # Fertilizers by Product (product mix for fracGASF)
+    protein:     FBS     # Food Balance Sheets: per-capita protein supply (2010-present)
+    protein_hist: FBSH   # Food Balance Sheets (historic): per-capita protein supply (1961-2013)
+    macro:       MK      # Macro Indicators: GDP per capita
+  codes:
+    fert_element_agri_use: 5157     # Agricultural use
+    fert_item_N:   3102             # Nutrient nitrogen N (total)
+    fert_item_P2O5: 3103            # Nutrient phosphate P2O5 (total)
+    crop_element_production: 5510    # Production (tonnes)
+    crop_element_area: 5312          # Area harvested (ha)
+    fbs_element_protein: 674         # Protein supply quantity (g/capita/day)
+    fbs_item_total: 2901            # Grand total
+    animal_element_stocks: 5111      # Stocks
+    emn_applied_element: 72381       # Manure applied to soils (N content)
+    emn_pasture_element: 72380       # Manure left on pasture (N content)
+    emn_all_animals_item: 1755       # All animals
+    land_element_area: 5110          # Area (1000 ha)
+    land_item_cropland: 6620         # Cropland
+    land_item_pasture: 6655          # Permanent meadows and pastures
+    land_item_land: 6601             # Land area
+
+# --- Unit conversions ---
+conversions:
+  p2o5_to_p: 0.4364
+  k2o_to_k: 0.8301
+  tonnes_to_kg: 1000.0
+
+# --- Synthetic fertilizer ---
+# National cropland fertilizer = FAOSTAT RFN agricultural use x cropland fraction cf(i)
+# (coefficients/cropland_fraction.csv; cf = 1 where not listed).
+fertilizer:
+  cropland_fraction_file: cropland_fraction.csv
+  default_cf: 1.0
+  # Within-country spatial weight (national totals are always conserved):
+  #   coello_cropgrids : Coello et al. (2025) national split among 13 crop groups, each group placed
+  #                      on CropGRIDS harvested area x HYDE cropland (the same basis as crop removal).
+  #                      Requires the table from scripts/12d_build_coello_national_groups.py.
+  #                      Used for the released product.
+  #   coello           : Coello 5-arcmin field split onto the 0.05 degree grid (scripts/12b).
+  #   lutian           : Lu and Tian 0.5 degree N rate (1961-2013), then NPKGRIDS crop intensity.
+  #   adalibieke       : Adalibieke et al. (2023) crop-specific rates (scripts/12_build_adalibieke_fert.py,
+  #                      not included in this repository).
+  grid_weight: coello_cropgrids
+
+# --- Manure ---
+manure:
+  method: emn                 # national manure from FAOSTAT EMN (applied to soils; left on pasture)
+  # Within-country distribution of the two manure pools (national totals always conserved):
+  #   zhang : Zhang et al. (2017) gridded manure (5 arcmin, 1961-2014; later years use the 2014
+  #           pattern). Requires scripts/12c_build_zhang_manure.py. Used for the released product.
+  #   emn   : livestock N-excretion density x land base.
+  grid_source: zhang
+  applied_fraction_default: 0.22
+  excretion_file: livestock_excretion.csv      # IPCC 2019 Table 10.19 (bottom_up method only)
+  tam_file: livestock_tam.csv
+  region_map_file: ipcc_region_map.csv
+  # Livestock density weights: GLW (fixed epochs, data/raw/gridded_livestock).
+  glw_dir: gridded_livestock
+  glw_excretion_file: glw_excretion.csv
+  # Optional time-varying AGLW livestock maps (Du et al. 2025; Zenodo 10.5281/zenodo.17128483;
+  # scripts/41_download_aglw.py, not included). The released product uses GLW, so this is null.
+  aglw_dir: null
+  aglw_species:
+    CTL: cattl
+    BFL: buffa
+    SHP: sheep
+    GTS: goats
+    PGS: swine
+    CHK: chick
+  confined_species: [PGS, CHK]
+  grazing_species: [CTL, BFL, SHP, GTS]
+  cattle_confined_fraction: 0.20
+  cattle_code: CTL
+  # Per-species applied/pasture split of the livestock weight from FAOSTAT EMN
+  #   a_s(i,t) = EMN_applied(s,i,t) / [EMN_applied(s,i,t) + EMN_pasture(s,i,t)]
+  applied_fraction_from_emn: true
+  species_map_file: species_map.csv
+  applied_fraction_fallback:   # used where EMN has no split for a country
+    CTL: 0.25
+    BFL: 0.20
+    SHP: 0.10
+    GTS: 0.10
+    PGS: 0.90
+    CHK: 0.95
+  pasture_pool: true
+  cropland_n_cap_kgha: 350          # ceiling on applied manure per ha of cropland; the excess moves to
+  cropland_cap_radius_cells: 5      # cropland with headroom within +/- 5 cells, then within the country
+  pasture_n_cap_kgha: 350           # ceiling on grassland fertilizer + pasture-deposited manure
+  landcover_dir: landcover
+  landcover_classes_file: landcover_classes.csv
+  grazing_base_pasture: [grassland]
+  grazing_base_rangeland: [grassland, shrub, savanna]
+
+# --- Biological N fixation ---
+bnf:
+  params_file: bnf_params.csv
+  freeliving_rate_kg_ha: 25.0                  # FAO CNB: rice and sugarcane
+  freeliving_crops: [Rice, Sugar cane]
+  grassland_rate_kg_ha: 5.0                    # pasture-legume fixation over permanent pasture
+
+# --- Atmospheric deposition (total N: NOy + NHx) ---
+#   wl_hybrid : national magnitude from Vishwakarma et al. (2023, WL); within-country pattern from
+#               ISIMIP3a. Used for the released product.
+#   total     : ISIMIP3a NOy + NHx national mean and pattern.
+#   oxidized  : ISIMIP3a NOy only.
+deposition:
+  basis: wl_hybrid
+  cropland_pattern: isimip                     # isimip: WL national total spread by ISIMIP rate x cropland;
+                                               # uniform: WL rate everywhere
+  wl_byyear_file: dep_wl_country_byyear.csv
+  byyear_file: dep_total_country_byyear.csv
+  noncrop_byyear_file: dep_noncrop_country_byyear.csv
+  oxidized_byyear_file: dep_ox_country_byyear.csv
+  oxidized_file: dep_ox_country.csv
+  include_reduced_in_surplus: true
+  year_uncertainty_pct: 25
+  required: false
+
+# --- Human-derived N ---
+human:
+  method: protein_treated                       # protein_treated | percapita
+  population_file: population_country.csv
+  n_excretion_kg_per_capita_yr: 5.0            # flat per-capita fallback
+  p_excretion_kg_per_capita_yr: 0.6
+  protein_n_fraction: 0.16                      # kg N per kg dietary protein
+  consumer_loss_file: food_consumer_loss.csv
+  consumer_loss_ref_year: 2015
+  gdp_file: gdp_percapita.csv                   # optional; otherwise FAOSTAT MK
+  treatment_file: wastewater_treatment.csv
+  food_waste: true
+  recycle: true
+  recycle_country_file: human_recycle_country.csv
+  recycle_file: human_recycle.csv
+  recycle_post1950_factor: 0.15
+  recycle_sewer_file: sewer_connection.csv
+  recycle_decline_power: 1.0
+  # Sewage sludge: a fraction s_bio of treated N ends in sludge, routed to cropland, other land,
+  # landfill and incineration by national disposal shares.
+  biosolids: true
+  sludge_biomass_fraction: 0.18
+  biosolids_routes_file: biosolids_routes.csv
+  biosolids_routes_byyear_file: biosolids_routes_byyear.csv
+  incineration_ash_n_retention: 0.0
+  sewer_grid_mode: rural
+
+# --- Geography ---
+geo:
+  country_crosswalk_file: country_crosswalk.csv
+
+downscale:
+  target_grid_arcmin: 5
+  proxies:
+    FERT: spam2020_cropland
+    CROP: spam2020_by_crop
+    BNF:  spam2020_by_crop
+    MAN:  glw4_2020
+    DEP:  native_grid
+    HUM:  worldpop_2022
+
+# --- Validation ---
+validation:
+  benchmark_domain: ESB
+  benchmark_year: 2020
+
+uncertainty:
+  enabled: false
+  method: monte_carlo
+  n_draws: 1000
+
+# --- Cropland extent through time ---
+# share: cropland of cell m in year t is HYDE 3.3 cropland H(m,t); crop areas are
+#   A_c(m,t) = [CG_c(m) / CG_crop(m)] * H(m,t)
+# with CG_c the CropGRIDS harvested area of crop c and CG_crop the CropGRIDS physical cropland.
+hyde_envelope:
+  mode: share
+  ref_year: 2020
+
+# --- Gridded products ---
+# surplus_cropland_kgha is set to missing where cropland_ha / cell area < min_cropland_frac (0 = no mask).
+grids:
+  min_cropland_frac: 0.0

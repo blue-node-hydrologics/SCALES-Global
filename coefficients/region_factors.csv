@@ -1,0 +1,10 @@
+region,n_c_obs,median_c,m_r,n_tau,tau_r
+Africa,46,0.04,0.17,12,1.0
+Asia,20,0.425,0.71,8,0.73
+Eastern Europe,19,0.722,1.0,8,0.95
+Indian Subcontinent,5,0.35,0.92,2,0.32
+Latin America,30,0.422,0.97,17,0.81
+Middle East,15,0.81,1.15,10,0.99
+North America,3,0.755,0.93,3,0.99
+Oceania,6,0.235,1.05,2,0.21
+Western Europe,23,0.951,1.09,19,1.0

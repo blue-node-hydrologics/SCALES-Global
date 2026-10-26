@@ -1,0 +1,3 @@
+band,p_graze_kg_ha,source
+managed,200.0,"Midpoint of the measured pasture N-yield range for managed temperate grassland (~100-300 kg N ha-1 yr-1) cited in the SCALES-Global methods. Applied to Global Pasture Watch band 1 (cultivated pasture). PRESCRIBED from literature, not fitted to any comparison dataset."
+rangeland,30.0,"Midpoint of the measured range for extensive rangeland (~10-50 kg N ha-1 yr-1). Applied to Global Pasture Watch band 2 (natural/semi-natural rangeland). PRESCRIBED from literature, not fitted. The global forage term is more sensitive to this rate than to the managed one (rank correlation 0.84 vs 0.54), since rangeland is 86% of the grazing base."

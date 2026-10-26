@@ -1,0 +1,11 @@
+region,manure,deposition,human_recycle,biosolids,food_waste,human_effluent,treatment
+North America,0.48,0.15,0.40,0.35,0.30,0.20,0.15
+Western Europe,0.48,0.20,0.40,0.35,0.30,0.20,0.15
+Eastern Europe,0.48,0.20,0.40,0.35,0.30,0.20,0.15
+Oceania,0.48,0.25,0.40,0.35,0.30,0.20,0.15
+Latin America,0.48,0.25,0.40,0.35,0.30,0.20,0.15
+Africa,0.48,0.25,0.40,0.35,0.30,0.20,0.15
+Middle East,0.48,0.25,0.40,0.35,0.30,0.20,0.15
+Asia,0.48,0.35,0.40,0.35,0.30,0.20,0.15
+Indian Subcontinent,0.48,0.35,0.40,0.35,0.30,0.20,0.15
+OTHER,0.48,0.25,0.40,0.35,0.30,0.20,0.15

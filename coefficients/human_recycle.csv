@@ -1,0 +1,9 @@
+region,f_recycle_1900,source
+Europe,0.50,"Moree et al. 2013: West Europe high (0.70) + Central Europe medium (0.40) 1900 night-soil recycling, blended."
+NorthAmericaOceania,0.30,"Moree 2013: US medium (0.40); Canada/Oceania low (0.10)."
+IndustrializedAsia,0.70,"Moree 2013: China, Japan high (0.70) night-soil recycling in 1900."
+SubSaharanAfrica,0.05,"Moree 2013: negligible recycling (religious/handling taboos)."
+NAfrWCAsia,0.05,"Moree 2013: Islamic countries negligible recycling (taboos)."
+SouthSoutheastAsia,0.55,"Moree 2013: India high (0.70) + SE Asia medium (0.40)."
+LatinAmerica,0.25,"Moree 2013: Mexico/Central America medium (0.40); South America low (0.10)."
+DEFAULT,0.20,"Global fallback (low-medium recycling)."

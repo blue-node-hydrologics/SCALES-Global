@@ -1,0 +1,7 @@
+glw_code,species,nex_kg_head_yr,status,source
+CTL,cattle,60.0,ACTIVE,IPCC 2019 Vol4 Ch10 Table 10.19 global-typical Nex (relative weighting only; magnitude from FAOSTAT EMN)
+BFL,buffaloes,55.0,ACTIVE,IPCC 2019 Vol4 Ch10 Table 10.19 global-typical Nex (relative weighting only; magnitude from FAOSTAT EMN)
+SHP,sheep,12.0,ACTIVE,IPCC 2019 Vol4 Ch10 Table 10.19 global-typical Nex (relative weighting only; magnitude from FAOSTAT EMN)
+GTS,goats,11.0,ACTIVE,IPCC 2019 Vol4 Ch10 Table 10.19 global-typical Nex (relative weighting only; magnitude from FAOSTAT EMN)
+PGS,pigs,13.0,ACTIVE,IPCC 2019 Vol4 Ch10 Table 10.19 global-typical Nex (relative weighting only; magnitude from FAOSTAT EMN)
+CHK,chickens,0.6,ACTIVE,IPCC 2019 Vol4 Ch10 Table 10.19 global-typical Nex (relative weighting only; magnitude from FAOSTAT EMN)

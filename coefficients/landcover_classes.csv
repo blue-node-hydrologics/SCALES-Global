@@ -1,0 +1,18 @@
+igbp_class,band_index,igbp_name,category
+1,0,Evergreen Needleleaf Forests,forest
+2,1,Evergreen Broadleaf Forests,forest
+3,2,Deciduous Needleleaf Forests,forest
+4,3,Deciduous Broadleaf Forests,forest
+5,4,Mixed Forests,forest
+6,5,Closed Shrublands,shrub
+7,6,Open Shrublands,shrub
+8,7,Woody Savannas,savanna
+9,8,Savannas,savanna
+10,9,Grasslands,grassland
+11,10,Permanent Wetlands,other
+12,11,Croplands,cropland
+13,12,Urban and Built-up Lands,other
+14,13,Cropland/Natural Vegetation Mosaics,cropland
+15,14,Permanent Snow and Ice,other
+16,15,Barren,other
+17,16,Water Bodies,other

@@ -1,0 +1,20 @@
+ISO3,beta_bio,source
+# beta_bio = fraction of the TREATMENT-REMOVED nitrogen (f_rem = D.tau.R_N) that is land-applied to
+# cropland as biosolids. The sewered-biosolids recycle term carves this OUT of the removed pool
+# (it is a re-routing of already-removed N to cropland, NOT an extra diversion of raw excreta):
+#   f_bio(i,t) = beta_bio(region) . f_rem(i,t)          [Tier-2 countries only; f_bio = 0 for Tier-1]
+# so night soil (1-D), biosolids (beta_bio.f_rem), true removal ((1-beta_bio).f_rem) and discharge
+# (1 - f_ns - f_rem) are a disjoint partition of excreted N summing to 1 (
+# beta_bio ~ (N-to-sludge share
+# of removed N) x (land-applied share of sludge): physically ~0.2 for land-applying regimes, calibrated
+# so France total recycling ~ Starck et al. 2023's ~10% of excreted N (night soil + biosolids), under the
+# Trimmer & Guest 2018 <=15% ceiling. Overridden down for incineration-dominant countries (Eurostat;
+# NEBRA 2018; MLIT Japan). Countries not listed use DEFAULT. Tier-1 (CHN/JPN/KOR/PRK/VNM) ignore this
+# (their documented trajectories already represent TOTAL recycling). Carry a wide MC CV.
+DEFAULT,0.20,"Land-applying regime; ~ (N-to-sludge fraction of removed N) x (land-applied share). France total ~9% (Starck 2023 ~10%)."
+NLD,0.05,"Incineration-dominant; land application banned 1995 (Eurostat)."
+CHE,0.05,"Incineration-dominant; agricultural sludge use banned ~2006."
+DEU,0.06,"Shifting to mono-incineration + P-recovery; ag use falling (Eurostat)."
+AUT,0.06,"Incineration-dominant (Eurostat)."
+BEL,0.06,"Flanders incineration-dominant (Eurostat)."
+JPN,0.06,"Construction-material/incineration dominant; ~14% of sludge to agriculture (MLIT/JSWA 2022)."

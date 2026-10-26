@@ -1,0 +1,16 @@
+fao_item_code,item_name,ndfa_group,ndfa_default,ndfa_brazil,ndfa_europe,ndfa_row,wholeplant_factor,status,source_ndfa,note
+236,Soya beans,soybean,0.61,0.78,0.44,0.61,1.9,ACTIVE,Peoples et al. 2021,"grain-N x wholeplant_factor x %Ndfa; factor=1.9 reproduces Herridge et al. 2022 global soybean BNF (25.0 Tg, 2018) against grain-N (Ludemann) x %Ndfa core"
+242,"Groundnuts, with shell",pulse,0.62,,,,3.13,ACTIVE,Peoples 2021 medium group,"wholeplant_factor=3.13 reproduces Herridge et al. 2022 global groundnut BNF (3.3 Tg, 2018); higher than soybean because lower N-harvest-index leaves more N in shoot residue + belowground"
+176,"Beans, dry",pulse,0.38,,,,4.42,ACTIVE,Peoples 2021 low group (common bean),"wholeplant_factor=4.42 (pulse-group value reproducing Herridge et al. 2022 global pulse BNF 7.2 Tg, 2018)"
+191,Chick peas,pulse,0.62,,,,4.42,ACTIVE,Peoples 2021 medium,"pulse-group wholeplant_factor (Herridge et al. 2022)"
+187,"Peas, dry",pulse,0.62,,,,4.42,ACTIVE,Peoples 2021 medium,"pulse-group wholeplant_factor (Herridge et al. 2022)"
+201,Lentils,pulse,0.62,,,,4.42,ACTIVE,Peoples 2021 medium,"pulse-group wholeplant_factor (Herridge et al. 2022)"
+195,"Cow peas, dry",pulse,0.62,,,,4.42,ACTIVE,Peoples 2021 medium,"pulse-group wholeplant_factor (Herridge et al. 2022)"
+203,Bambara beans,pulse,0.62,,,,4.42,ACTIVE,Peoples 2021 medium,"pulse-group wholeplant_factor (Herridge et al. 2022)"
+205,Vetches,pulse,0.62,,,,4.42,ACTIVE,Peoples 2021 medium,"pulse-group wholeplant_factor (Herridge et al. 2022)"
+211,Pulses nes,pulse,0.62,,,,4.42,ACTIVE,Peoples 2021 medium default,"pulse-group wholeplant_factor (Herridge et al. 2022)"
+181,"Broad beans, horse beans, dry",pulse,0.74,,,,4.42,ACTIVE,Peoples 2021 high group (faba),"pulse-group wholeplant_factor (Herridge et al. 2022)"
+210,Lupins,pulse,0.74,,,,4.42,ACTIVE,Peoples 2021 high group,"pulse-group wholeplant_factor (Herridge et al. 2022)"
+197,Pigeon peas,pulse,0.74,,,,4.42,ACTIVE,Peoples 2021 high group,"pulse-group wholeplant_factor (Herridge et al. 2022); grain-N now in crop_uptake.csv (item 197), previously missing -> BNF=0"
+27,Rice,freeliving,0.0,,,,0.0,ACTIVE,FAO CNB free-living rule,area x 25 kg N/ha
+156,Sugar cane,freeliving,0.0,,,,0.0,ACTIVE,FAO CNB free-living rule,area x 25 kg N/ha
