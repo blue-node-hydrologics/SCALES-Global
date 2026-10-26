@@ -14,9 +14,9 @@ are produced:
 Uncertainty is estimated by a coefficient-level Monte Carlo analysis of the national budgets and
 propagated to the grid.
 
-The dataset is archived on Zenodo: [DATA DOI]. The method is described in:
+The dataset is archived on Zenodo: 10.5281/zenodo.22737030. The method is described in:
 
-> Van Meter, K. J. & Basu, N. B. SCALES-Global: [title]. *Scientific Data* (in review).
+> Van Meter, K. J. & Basu, N. B. SCALES-Global: An annual, 0.05° global nitrogen-surplus dataset (1961–2023). *Scientific Data* (in review).
 
 ## Repository layout
 
